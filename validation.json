@@ -1,0 +1,14 @@
+{
+  "samples": 343120,
+  "positionMaximumDifferenceKM": 1.4591290161828668e-05,
+  "velocityMaximumDifferenceKMPerSecond": 3.904925815649604e-12,
+  "kernelSHA256": "95a58477306cbe6c7ccd7b6691e8440ab5e58b654e9352e17581cb14f06433d8",
+  "kernelBytes": 21039660,
+  "worstSample": {
+    "body": 301,
+    "tdb": 53325.52666666667,
+    "nativeVsDecimalKM": 1.1997385810564948e-08,
+    "jplephemVsDecimalKM": 1.4594355773896132e-05
+  },
+  "scope": "1850-2150 TDB; coefficient intervals at -1e-7, 0, +1e-7 days and 3601 uniform dates. JPLEphem same-source evaluation, not absolute lunar accuracy."
+}

@@ -1,0 +1,274 @@
+{
+  "microsecondsPerCall": {
+    "cameraDates.nativeDE440.phaseAngle": {
+      "median": 0.36125,
+      "batches": [
+        0.376056,
+        0.361583,
+        0.352361,
+        0.357917,
+        0.36125,
+        0.359375,
+        0.368305
+      ]
+    },
+    "cameraDates.astronomyEngine.phaseAngle": {
+      "median": 0.558736,
+      "batches": [
+        0.585125,
+        0.58025,
+        0.562583,
+        0.549097,
+        0.558736,
+        0.55225,
+        0.553417
+      ]
+    },
+    "cameraDates.nativeDE440.illumination": {
+      "median": 0.18,
+      "batches": [
+        0.18,
+        0.202445,
+        0.176111,
+        0.175583,
+        0.176069,
+        0.189472,
+        0.180583
+      ]
+    },
+    "cameraDates.astronomyEngine.illumination": {
+      "median": 0.350792,
+      "batches": [
+        0.343875,
+        0.353361,
+        0.336375,
+        0.344472,
+        0.356958,
+        0.350792,
+        0.361819
+      ]
+    },
+    "cameraDates.mooninfoGo.illumination": {
+      "median": 58.668805,
+      "batches": [
+        58.692875,
+        61.86232,
+        60.402819,
+        58.523917,
+        58.668805,
+        58.614861,
+        58.302
+      ]
+    },
+    "cameraDates.nativeDE440.nextQuarter": {
+      "median": 18.200417,
+      "batches": [
+        17.815137,
+        18.26514,
+        18.200417,
+        18.92514,
+        17.884723,
+        17.908057,
+        18.705417
+      ]
+    },
+    "cameraDates.astronomyEngine.nextQuarter": {
+      "median": 4.87903,
+      "batches": [
+        4.876667,
+        4.62625,
+        4.99236,
+        4.87903,
+        4.65389,
+        4.931527,
+        4.909027
+      ]
+    },
+    "cameraDates.mooninfoGo.nextQuarter": {
+      "median": 619.502083,
+      "batches": [
+        620.963193,
+        620.287777,
+        620.522917,
+        616.396667,
+        619.502083,
+        616.233333,
+        613.102223
+      ]
+    },
+    "cameraDates.nativeDE440.horizontal": {
+      "median": 10.455319,
+      "batches": [
+        10.423583,
+        10.455319,
+        10.40743,
+        10.264625,
+        10.463639,
+        10.48625,
+        10.511944
+      ]
+    },
+    "cameraDates.astronomyEngine.horizontal": {
+      "median": 0.380056,
+      "batches": [
+        0.391875,
+        0.381264,
+        0.380056,
+        0.378,
+        0.393194,
+        0.38,
+        0.368847
+      ]
+    },
+    "spreadDates.nativeDE440.phaseAngle": {
+      "median": 0.403111,
+      "batches": [
+        0.401458,
+        0.403111,
+        0.400833,
+        0.404236,
+        0.410028,
+        0.401111,
+        0.404069
+      ]
+    },
+    "spreadDates.astronomyEngine.phaseAngle": {
+      "median": 0.748903,
+      "batches": [
+        0.83025,
+        0.763458,
+        0.748903,
+        0.752361,
+        0.746361,
+        0.743722,
+        0.746292
+      ]
+    },
+    "spreadDates.nativeDE440.illumination": {
+      "median": 0.196833,
+      "batches": [
+        0.189972,
+        0.198639,
+        0.200722,
+        0.188917,
+        0.198458,
+        0.196833,
+        0.187639
+      ]
+    },
+    "spreadDates.astronomyEngine.illumination": {
+      "median": 0.509153,
+      "batches": [
+        0.495222,
+        0.519208,
+        0.515278,
+        0.472083,
+        0.509153,
+        0.531514,
+        0.47618
+      ]
+    },
+    "spreadDates.mooninfoGo.illumination": {
+      "median": 80.929417,
+      "batches": [
+        81.816389,
+        80.747056,
+        80.940611,
+        80.438986,
+        81.561819,
+        80.929417,
+        79.62032
+      ]
+    },
+    "spreadDates.nativeDE440.nextQuarter": {
+      "median": 17.132083,
+      "batches": [
+        16.80861,
+        17.132083,
+        16.805417,
+        17.69375,
+        17.092223,
+        17.565553,
+        17.990553
+      ]
+    },
+    "spreadDates.astronomyEngine.nextQuarter": {
+      "median": 5.94125,
+      "batches": [
+        5.982223,
+        5.631387,
+        6.077777,
+        5.917083,
+        5.708333,
+        6.113613,
+        5.94125
+      ]
+    },
+    "spreadDates.mooninfoGo.nextQuarter": {
+      "median": 669.57097,
+      "batches": [
+        669.57097,
+        671.11486,
+        669.439447,
+        667.44611,
+        668.94097,
+        670.18861,
+        673.747637
+      ]
+    },
+    "spreadDates.nativeDE440.horizontal": {
+      "median": 23.007153,
+      "batches": [
+        22.916875,
+        23.171917,
+        22.947389,
+        23.007153,
+        23.133972,
+        22.989528,
+        23.107
+      ]
+    },
+    "spreadDates.astronomyEngine.horizontal": {
+      "median": 0.515333,
+      "batches": [
+        0.515333,
+        0.482903,
+        0.523889,
+        0.522195,
+        0.48175,
+        0.522875,
+        0.514028
+      ]
+    }
+  },
+  "generatedAt": "2026-09-22T06:58:41.924459+00:00",
+  "simulator": "8B8B53F2-6198-4CF4-9225-4E54C4F5DA3A",
+  "host": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cpu": "Apple M4 Pro",
+  "legacyGitRevision": "98aa6b8af3506cbc85f1abe616f6d11d2ecfcc95",
+  "astronomyEngineVersion": "2.1.19",
+  "compileFlags": [
+    "-O3",
+    "-target",
+    "arm64-apple-ios15.0-simulator",
+    "-isysroot",
+    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk"
+  ],
+  "method": "Same process, single thread, -O3 C/C++, no LTO; historical Go framework as shipped. 20 warmup calls, 7 batches, rotated library order. 300 event searches or 3000 other calls per batch. Each library receives fresh precomputed time inputs. Median plus all batch values retained.",
+  "limitations": "Different accuracy/model coverage and event tolerances (native 0.1 ms, AE 0.1 s). Excludes time conversion, native kernel load, UI, Swift lock and table lookup; includes original Go bridge/runtime. Simulator on host CPU, not device energy or cold-start benchmark. Go library lacks equivalent direction/phase-angle APIs.",
+  "datePatterns": {
+    "cameraDates": "1000 successive dates 8.64 seconds apart near 2026, repeated for 3000-call batches",
+    "spreadDates": "1000 shuffled dates across approximately 2020-2030, repeated for 3000-call batches"
+  },
+  "artifactSHA256": {
+    "benchmarkSource": "99b0362740c695cffb98af702c4e0d9b3d1d36fc74e284fc6a2caa3c41ca7d50",
+    "runner": "0818bf593f960a0fedcd1f32052f872d2638e6df747dfb972ecc5dab5525f9da",
+    "astronomySource": "388920479d819713963ffd0f8ab0677944f66c6c94239ceddddd3b0d5d064432",
+    "astronomyHeader": "83a31011957c2b87e22f0828820f370f1a495aa4d51357bb57d714cde839dc00",
+    "nativeArchive": "5bbca3666ae2e73d3a806ce97a65206c4c7ea5a1fdae614b1ec679a46abbd0ac",
+    "nativeKernel": "7bbcf3e00a86f10f09a2d0aa03659599bfd930039ac9b9ad7d9b425251301a37",
+    "legacyArchive": "3abda6f25e68b02446c7bdd7eb264c0e62d07746c7bd71e64dae791ba775ff48",
+    "benchmarkBinary": "e969b416db657e42f15f111dd253406b3d1633eee6e602ddfdb639a569d36968",
+    "nativeBuildManifest": "ed2ddbbf036d752d1f2d0529d65dc860febc9499c5ca9df4769a5fd9aea68b14"
+  }
+}

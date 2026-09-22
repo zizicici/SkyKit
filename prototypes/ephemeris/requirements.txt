@@ -1,0 +1,4 @@
+skyfield==1.54
+jplephem==2.24
+pyerfa==2.0.1.5
+numpy==2.5.3

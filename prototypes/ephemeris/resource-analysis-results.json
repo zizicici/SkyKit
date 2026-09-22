@@ -1,0 +1,260 @@
+{
+  "generatedAt": "2026-09-22T07:05:29.712277+00:00",
+  "host": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cpu": "Apple M4 Pro",
+  "simulator": "8B8B53F2-6198-4CF4-9225-4E54C4F5DA3A",
+  "compileFlags": [
+    "-O3",
+    "-std=c++17",
+    "-target",
+    "arm64-apple-ios15.0-simulator",
+    "-isysroot",
+    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk"
+  ],
+  "nativeRuns": [
+    {
+      "baseline": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22429696,
+        "heapBytes": 12752
+      },
+      "loaded": {
+        "footprintBytes": 12781392,
+        "residentBytes": 26116096,
+        "heapBytes": 3617504
+      },
+      "firstObservation": {
+        "footprintBytes": 12797776,
+        "residentBytes": 26312704,
+        "heapBytes": 3617504
+      },
+      "after100000": {
+        "footprintBytes": 12797776,
+        "residentBytes": 26312704,
+        "heapBytes": 3617504
+      },
+      "microsecondsPerCall": {
+        "camera.observation": 10.316554,
+        "camera.earthRotation": 9.867908,
+        "camera.xysSeries": 9.807187,
+        "camera.rotationWithPreparedXYS": 0.045408,
+        "spread.observation": 23.017283,
+        "spread.earthRotation": 22.441837,
+        "spread.xysSeries": 22.335775,
+        "spread.rotationWithPreparedXYS": 0.056113
+      },
+      "closed": {
+        "footprintBytes": 9193296,
+        "residentBytes": 26361856,
+        "heapBytes": 13104
+      }
+    },
+    {
+      "baseline": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22429696,
+        "heapBytes": 12752
+      },
+      "loaded": {
+        "footprintBytes": 12781392,
+        "residentBytes": 26116096,
+        "heapBytes": 3617504
+      },
+      "firstObservation": {
+        "footprintBytes": 12797776,
+        "residentBytes": 26312704,
+        "heapBytes": 3617504
+      },
+      "after100000": {
+        "footprintBytes": 12797776,
+        "residentBytes": 26312704,
+        "heapBytes": 3617504
+      },
+      "microsecondsPerCall": {
+        "camera.observation": 10.334217,
+        "camera.earthRotation": 9.9316,
+        "camera.xysSeries": 9.853417,
+        "camera.rotationWithPreparedXYS": 0.045288,
+        "spread.observation": 22.897679,
+        "spread.earthRotation": 22.619329,
+        "spread.xysSeries": 22.775479,
+        "spread.rotationWithPreparedXYS": 0.057096
+      },
+      "closed": {
+        "footprintBytes": 9193296,
+        "residentBytes": 26361856,
+        "heapBytes": 13104
+      }
+    },
+    {
+      "baseline": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22429696,
+        "heapBytes": 12752
+      },
+      "loaded": {
+        "footprintBytes": 12781392,
+        "residentBytes": 26116096,
+        "heapBytes": 3617504
+      },
+      "firstObservation": {
+        "footprintBytes": 12797776,
+        "residentBytes": 26312704,
+        "heapBytes": 3617504
+      },
+      "after100000": {
+        "footprintBytes": 12797776,
+        "residentBytes": 26312704,
+        "heapBytes": 3617504
+      },
+      "microsecondsPerCall": {
+        "camera.observation": 10.372988,
+        "camera.earthRotation": 10.002142,
+        "camera.xysSeries": 9.994813,
+        "camera.rotationWithPreparedXYS": 0.04565,
+        "spread.observation": 23.072146,
+        "spread.earthRotation": 22.623504,
+        "spread.xysSeries": 22.435588,
+        "spread.rotationWithPreparedXYS": 0.057671
+      },
+      "closed": {
+        "footprintBytes": 9193296,
+        "residentBytes": 26361856,
+        "heapBytes": 13104
+      }
+    }
+  ],
+  "mappingOnlyRuns": [
+    {
+      "baseline": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22446080,
+        "heapBytes": 12752
+      },
+      "mapped": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22446080,
+        "heapBytes": 12752
+      },
+      "touchedAllBytes": {
+        "footprintBytes": 9193320,
+        "residentBytes": 26050560,
+        "heapBytes": 12752
+      },
+      "closed": {
+        "footprintBytes": 9176912,
+        "residentBytes": 22462464,
+        "heapBytes": 12752
+      }
+    },
+    {
+      "baseline": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22446080,
+        "heapBytes": 12752
+      },
+      "mapped": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22446080,
+        "heapBytes": 12752
+      },
+      "touchedAllBytes": {
+        "footprintBytes": 9176912,
+        "residentBytes": 26050560,
+        "heapBytes": 12752
+      },
+      "closed": {
+        "footprintBytes": 9176912,
+        "residentBytes": 22462464,
+        "heapBytes": 12752
+      }
+    },
+    {
+      "baseline": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22446080,
+        "heapBytes": 12752
+      },
+      "mapped": {
+        "footprintBytes": 9160528,
+        "residentBytes": 22446080,
+        "heapBytes": 12752
+      },
+      "touchedAllBytes": {
+        "footprintBytes": 9176912,
+        "residentBytes": 26050560,
+        "heapBytes": 12752
+      },
+      "closed": {
+        "footprintBytes": 9176912,
+        "residentBytes": 22462464,
+        "heapBytes": 12752
+      }
+    }
+  ],
+  "nativeMedianIncrementsBytes": {
+    "loaded": {
+      "footprintBytes": 3620864.0,
+      "residentBytes": 3686400.0,
+      "heapBytes": 3604752.0
+    },
+    "firstObservation": {
+      "footprintBytes": 3637248.0,
+      "residentBytes": 3883008.0,
+      "heapBytes": 3604752.0
+    },
+    "after100000": {
+      "footprintBytes": 3637248.0,
+      "residentBytes": 3883008.0,
+      "heapBytes": 3604752.0
+    },
+    "closed": {
+      "footprintBytes": 32768.0,
+      "residentBytes": 3932160.0,
+      "heapBytes": 352.0
+    }
+  },
+  "coefficientRedundancyExperiment": {
+    "inferredEarthMoonMassRatio": 81.30056822149722,
+    "maximumSegmentPositionBoundMeters": 1.0533866547725356e-09,
+    "originalFileBytes": 3578412,
+    "removableCoefficientBytes": 1453608,
+    "projectedFileBytesExcludingRemovedSegmentHeader": 2124772,
+    "limitation": "Empirical coefficient relationship in this pinned DE440s, over its full range. No coefficients removed from production prototype. Not bit-identical; end-to-end state/phase/observer validation required before adoption."
+  },
+  "xysInterpolationExperiment": [
+    {
+      "intervalSeconds": 60,
+      "samples": 10504,
+      "maximumRotationErrorArcseconds": 2.2368893405904404e-09,
+      "p95Arcseconds": 1.5903657898097346e-09
+    },
+    {
+      "intervalSeconds": 300,
+      "samples": 10504,
+      "maximumRotationErrorArcseconds": 5.6363944159362906e-08,
+      "p95Arcseconds": 4.0602511936513e-08
+    },
+    {
+      "intervalSeconds": 600,
+      "samples": 10504,
+      "maximumRotationErrorArcseconds": 2.199153539921775e-07,
+      "p95Arcseconds": 1.5931441825379571e-07
+    },
+    {
+      "intervalSeconds": 3600,
+      "samples": 10504,
+      "maximumRotationErrorArcseconds": 8.002030170195422e-06,
+      "p95Arcseconds": 5.681197162420304e-06
+    }
+  ],
+  "limitations": "Simulator deltas for one kernel, not whole-app or device peak memory. Heap is default malloc zone. RSS includes reclaimable clean pages; phys_footprint is a separate metric. mmap mode is a storage-only experiment, not a replacement parser. Cached-XYS timing deliberately omits series generation and interpolation; it is not a functioning cached observer API. Interpolation errors are sampled, not a global bound.",
+  "artifactSHA256": {
+    "probeSource": "9e0a3674b1c9d170175eeb2c98af8305d4dc6b55799cc750bbb9f3cd670b924b",
+    "runner": "87e9b5c4445496176197abdb1654da28919f8785817a8d0f5b2ab3d84a5d36a2",
+    "nativeArchive": "5bbca3666ae2e73d3a806ce97a65206c4c7ea5a1fdae614b1ec679a46abbd0ac",
+    "nativeKernel": "7bbcf3e00a86f10f09a2d0aa03659599bfd930039ac9b9ad7d9b425251301a37",
+    "buildManifest": "ed2ddbbf036d752d1f2d0529d65dc860febc9499c5ca9df4769a5fd9aea68b14",
+    "probeBinary": "19411eba734aabd452e25498f4164b3b27e3bf28f94347902af477910ec189e0"
+  }
+}

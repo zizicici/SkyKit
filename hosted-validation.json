@@ -1,0 +1,9 @@
+{
+  "packs": 1,
+  "samples": 548148,
+  "allCoefficientBytesMatch": true,
+  "positionMaximumDifferenceKM": 5.3018566877218485e-05,
+  "velocityMaximumDifferenceKMPerSecond": 1.1501844211021714e-11,
+  "catalogSHA256": "0117a23138b2560ca5bb13793277754f0d5b499d26b6b89cec4ad4e93aa29eec",
+  "scope": "2150\u20132649 packs including overlap; all coefficient bytes and every interval boundary checked. Same-source reader agreement, not absolute accuracy. Apple delivery not exercised."
+}

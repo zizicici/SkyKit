@@ -1,0 +1,247 @@
+{
+  "source": "JPL Horizons Moon 301, quantities 4/45/49, WGS84, airless",
+  "documentation": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+  "generatedAt": "2026-09-22T04:20:53.785705+00:00",
+  "samples": [
+    {
+      "utc": "2026-09-22T12:00:00Z",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "elevation": 0,
+      "azimuth": 129.441649004,
+      "altitude": 55.492042028,
+      "rightAscension": 312.530287795,
+      "declination": -19.998797482,
+      "dut1": -0.01218,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-09-22T00:00:00Z",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "elevation": 0,
+      "azimuth": 224.50159453,
+      "altitude": -61.217372407,
+      "rightAscension": 305.545310183,
+      "declination": -21.431512706,
+      "dut1": -0.01172,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-01-03T20:00:00Z",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "elevation": 0,
+      "azimuth": 89.315594557,
+      "altitude": 32.663688148,
+      "rightAscension": 111.637296445,
+      "declination": 25.435923427,
+      "dut1": 0.07426,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-03-20T10:00:00Z",
+      "latitude": -33.8688,
+      "longitude": 151.2093,
+      "elevation": 0,
+      "azimuth": 270.574904064,
+      "altitude": -18.174087888,
+      "rightAscension": 13.870434789,
+      "declination": 10.328162775,
+      "dut1": 0.05681,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-06-01T03:00:00Z",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "elevation": 0,
+      "azimuth": 146.864777984,
+      "altitude": 12.542312636,
+      "rightAscension": 257.598704186,
+      "declination": -28.517177228,
+      "dut1": 0.01752,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-12-21T00:00:00Z",
+      "latitude": 80,
+      "longitude": 20,
+      "elevation": 0,
+      "azimuth": 251.399260149,
+      "altitude": 24.193055623,
+      "rightAscension": 41.674715121,
+      "declination": 20.560895323,
+      "dut1": -0.09667,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-04-15T18:00:00Z",
+      "latitude": 0,
+      "longitude": -179.9,
+      "elevation": 0,
+      "azimuth": 86.907444828,
+      "altitude": 21.78770626,
+      "rightAscension": 1.854147042,
+      "declination": 2.72448553,
+      "dut1": 0.04291,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2026-04-15T18:00:00Z",
+      "latitude": 0,
+      "longitude": 179.9,
+      "elevation": 0,
+      "azimuth": 86.911933414,
+      "altitude": 21.586720917,
+      "rightAscension": 1.855428146,
+      "declination": 2.724324597,
+      "dut1": 0.04291,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2027-01-01T00:00:00Z",
+      "latitude": -16.5,
+      "longitude": -68.15,
+      "elevation": 4200,
+      "azimuth": 159.291358998,
+      "altitude": -58.204466848,
+      "rightAscension": 200.872825999,
+      "declination": -13.223203689,
+      "dut1": -0.09667,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2027-01-01T00:00:00Z",
+      "latitude": -16.5,
+      "longitude": -68.15,
+      "elevation": 0,
+      "azimuth": 159.291359101,
+      "altitude": -58.204147418,
+      "rightAscension": 200.87271141,
+      "declination": -13.223503007,
+      "dut1": -0.09667,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 89,
+      "longitude": 0,
+      "elevation": 0,
+      "azimuth": 290.73829438,
+      "altitude": 13.056387684,
+      "rightAscension": 48.464911929,
+      "declination": 13.335740878,
+      "dut1": -0.20496,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 90,
+      "longitude": 0,
+      "elevation": 0,
+      "azimuth": 24.281620139,
+      "altitude": 13.409866373,
+      "rightAscension": 48.480357129,
+      "declination": 13.336930199,
+      "dut1": -0.20496,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "latitude": 25.3,
+      "longitude": -104.1,
+      "elevation": 0,
+      "azimuth": 139.803113395,
+      "altitude": 67.501852702,
+      "rightAscension": 17.493751715,
+      "declination": 7.374417635,
+      "dut1": -0.01669,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2030-06-15T06:30:00Z",
+      "latitude": -89,
+      "longitude": 0,
+      "elevation": 0,
+      "azimuth": 254.448976928,
+      "altitude": 21.530500739,
+      "rightAscension": 255.459145084,
+      "declination": -21.753786812,
+      "dut1": -0.09667,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2030-06-15T06:30:00Z",
+      "latitude": -90,
+      "longitude": 0,
+      "elevation": 0,
+      "azimuth": 343.257193745,
+      "altitude": 21.79698363,
+      "rightAscension": 255.477826862,
+      "declination": -21.755441418,
+      "dut1": -0.09667,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    },
+    {
+      "utc": "2035-12-31T23:59:59Z",
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "elevation": 40,
+      "azimuth": 116.709754129,
+      "altitude": 6.040473244,
+      "rightAscension": 308.09072765,
+      "declination": -17.686449662,
+      "dut1": -0.09667,
+      "earthOrientationSource": [
+        "EOP file        : eop.260921.p261218",
+        "EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-SEP-21. PREDICTS-> 2026-DEC-17"
+      ]
+    }
+  ]
+}

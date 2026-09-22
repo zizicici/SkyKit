@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "packs": [
+    {
+      "id": "skykit-de440-2150-2649-v1",
+      "path": "SkyKit/de440/2150-2649.bin",
+      "startTDB": 54744.5,
+      "endTDB": 237407.5,
+      "sha256": "eaca0fb2b10a4742fd00a5b5458ae31f761d96ff82ded6e84fe3df567537b724",
+      "bytes": 35073756
+    }
+  ]
+}

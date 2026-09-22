@@ -1,0 +1,266 @@
+{
+  "sampleCount": 12,
+  "metrics": {
+    "icrfSeparationArcseconds": {
+      "count": 12,
+      "mean": 0.0030136066450541133,
+      "median": 0.0032959186203684173,
+      "p95": 0.0042608914254795354,
+      "maximum": 0.005425832189609042
+    },
+    "commonWGS84SeparationArcseconds": {
+      "count": 12,
+      "mean": 0.003013606631181683,
+      "median": 0.0032959185993181456,
+      "p95": 0.004260891423152149,
+      "maximum": 0.005425832089994341
+    },
+    "reconstructedHorizonsSeparationArcseconds": {
+      "count": 12,
+      "mean": 1.6925747435420802e-06,
+      "median": 1.6585825179684857e-06,
+      "p95": 3.21296990801796e-06,
+      "maximum": 3.264949574420014e-06
+    }
+  },
+  "samples": [
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": -89,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6163893648,
+      "rawAzimuthDifferenceArcseconds": -20.013904158224705,
+      "rawAltitudeDifferenceArcseconds": -0.3250639095305985,
+      "rawHorizontalSeparationArcseconds": 19.28689586573709,
+      "icrfSeparationArcseconds": 0.002147772798652255,
+      "commonWGS84SeparationArcseconds": 0.0021477728241733923,
+      "reconstructedHorizonsSeparationArcseconds": 1.64593160063843e-06,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": -20.21607816092228,
+        "firstOrderLongitudeShiftArcseconds": -20.216222914619323
+      },
+      "observedMeridianShiftArcseconds": -19.98484380003447,
+      "externalEOPMeridianResidualArcseconds": -0.2312343608878109
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 0,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6167594545,
+      "rawAzimuthDifferenceArcseconds": -0.00039583578654855955,
+      "rawAltitudeDifferenceArcseconds": -0.0009152037975468374,
+      "rawHorizontalSeparationArcseconds": 0.0009872820107603509,
+      "icrfSeparationArcseconds": 0.000869779479683653,
+      "commonWGS84SeparationArcseconds": 0.0008697794416958351,
+      "reconstructedHorizonsSeparationArcseconds": 1.377695979037673e-06,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": -9.47660510064452e-06,
+        "firstOrderLongitudeShiftArcseconds": 0.0
+      },
+      "observedMeridianShiftArcseconds": 0.0,
+      "externalEOPMeridianResidualArcseconds": -9.47660510064452e-06
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 45,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6167659145,
+      "rawAzimuthDifferenceArcseconds": -0.25291535762335116,
+      "rawAltitudeDifferenceArcseconds": 0.22290043934773962,
+      "rawHorizontalSeparationArcseconds": 0.33649594847304654,
+      "icrfSeparationArcseconds": 0.002653271339602218,
+      "commonWGS84SeparationArcseconds": 0.0026532712226166946,
+      "reconstructedHorizonsSeparationArcseconds": 4.856323645539946e-07,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": 0.3528660539700468,
+        "firstOrderLongitudeShiftArcseconds": 0.3528754835780021
+      },
+      "observedMeridianShiftArcseconds": 0.34883999995827253,
+      "externalEOPMeridianResidualArcseconds": 0.004026054011774249
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 80,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6167960909,
+      "rawAzimuthDifferenceArcseconds": -1.9224969223614607,
+      "rawAltitudeDifferenceArcseconds": 0.3171367734630337,
+      "rawHorizontalSeparationArcseconds": 1.921255073629012,
+      "icrfSeparationArcseconds": 0.0032947106213998753,
+      "commonWGS84SeparationArcseconds": 0.003294710533305286,
+      "reconstructedHorizonsSeparationArcseconds": 3.1704410900526435e-06,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": 2.0012483487334976,
+        "firstOrderLongitudeShiftArcseconds": 2.0012563146047304
+      },
+      "observedMeridianShiftArcseconds": 1.9783655999049188,
+      "externalEOPMeridianResidualArcseconds": 0.02288274882857877
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 85,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6168332925,
+      "rawAzimuthDifferenceArcseconds": -3.9425132414407926,
+      "rawAltitudeDifferenceArcseconds": 0.32321279029190464,
+      "rawHorizontalSeparationArcseconds": 3.8754028350709038,
+      "icrfSeparationArcseconds": 0.0033075521207259102,
+      "commonWGS84SeparationArcseconds": 0.0033075520725079476,
+      "reconstructedHorizonsSeparationArcseconds": 1.8208256595346199e-06,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": 4.0333818931799215,
+        "firstOrderLongitudeShiftArcseconds": 4.033385233658768
+      },
+      "observedMeridianShiftArcseconds": 3.987252000058561,
+      "externalEOPMeridianResidualArcseconds": 0.04612989312136051
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 89.9,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6204609833,
+      "rawAzimuthDifferenceArcseconds": -199.84985328899256,
+      "rawAltitudeDifferenceArcseconds": 0.32702666529331736,
+      "rawHorizontalSeparationArcseconds": 194.42985951553501,
+      "icrfSeparationArcseconds": 0.0033056220955072313,
+      "commonWGS84SeparationArcseconds": 0.003305622180167496,
+      "reconstructedHorizonsSeparationArcseconds": 2.7214398601425972e-06,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": 202.19790043358898,
+        "firstOrderLongitudeShiftArcseconds": 202.18255373190433
+      },
+      "observedMeridianShiftArcseconds": 199.88255519990616,
+      "externalEOPMeridianResidualArcseconds": 2.3153452336828195
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 89,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 10.6171295489,
+      "rawAzimuthDifferenceArcseconds": -19.95013291759733,
+      "rawAltitudeDifferenceArcseconds": 0.32651581976423927,
+      "rawHorizontalSeparationArcseconds": 19.437125339781584,
+      "icrfSeparationArcseconds": 0.0033077580730099415,
+      "commonWGS84SeparationArcseconds": 0.0033077581502812675,
+      "reconstructedHorizonsSeparationArcseconds": 3.264949574420014e-06,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": 20.216367541218005,
+        "firstOrderLongitudeShiftArcseconds": 20.216222914619323
+      },
+      "observedMeridianShiftArcseconds": 19.985097599908386,
+      "externalEOPMeridianResidualArcseconds": 0.23126994130961975
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "latitude": 90,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 16.8690531562,
+      "rawAzimuthDifferenceArcseconds": -337623.85660948564,
+      "rawAltitudeDifferenceArcseconds": 0.0003694300929169003,
+      "rawHorizontalSeparationArcseconds": 325787.84907084506,
+      "icrfSeparationArcseconds": 0.0033057669531953615,
+      "commonWGS84SeparationArcseconds": 0.003305766924538367,
+      "reconstructedHorizonsSeparationArcseconds": 5.408533002033153e-11,
+      "externalEOP": {
+        "xpArcseconds": 0.0276410328749982,
+        "ypArcseconds": 0.35525368675000535,
+        "effectiveLongitudeShiftArcseconds": 340016.46662859863,
+        "firstOrderLongitudeShiftArcseconds": null
+      },
+      "observedMeridianShiftArcseconds": 337623.85989180004,
+      "externalEOPMeridianResidualArcseconds": 2392.606736798596
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "latitude": 25.3,
+      "longitude": -104.1,
+      "elevation": 0,
+      "horizonsLASTHours": 0.2255893814,
+      "rawAzimuthDifferenceArcseconds": 0.06625098462791357,
+      "rawAltitudeDifferenceArcseconds": 0.02412503390019083,
+      "rawHorizontalSeparationArcseconds": 0.03499570190556721,
+      "icrfSeparationArcseconds": 0.005425832189609042,
+      "commonWGS84SeparationArcseconds": 0.005425832089994341,
+      "reconstructedHorizonsSeparationArcseconds": 2.232856839416613e-06
+    },
+    {
+      "utc": "2026-12-21T00:00:00Z",
+      "latitude": 80,
+      "longitude": 20,
+      "elevation": 0,
+      "horizonsLASTHours": 7.3055090839,
+      "rawAzimuthDifferenceArcseconds": -2.1486616502670586,
+      "rawAltitudeDifferenceArcseconds": 0.34987119453120386,
+      "rawHorizontalSeparationArcseconds": 1.990926518069086,
+      "icrfSeparationArcseconds": 0.00329712661933696,
+      "commonWGS84SeparationArcseconds": 0.0032971266653310056,
+      "reconstructedHorizonsSeparationArcseconds": 8.481250842655914e-07
+    },
+    {
+      "utc": "2030-06-15T06:30:00Z",
+      "latitude": -89,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 0.0725281914,
+      "rawAzimuthDifferenceArcseconds": -22.566073216739824,
+      "rawAltitudeDifferenceArcseconds": -0.39243689966781403,
+      "rawHorizontalSeparationArcseconds": 20.9951411584325,
+      "icrfSeparationArcseconds": 0.002624236576552463,
+      "commonWGS84SeparationArcseconds": 0.002624236627009229,
+      "reconstructedHorizonsSeparationArcseconds": 1.0717113498142263e-06
+    },
+    {
+      "utc": "2030-06-15T06:30:00Z",
+      "latitude": -90,
+      "longitude": 0,
+      "elevation": 0,
+      "horizonsLASTHours": 18.1787614423,
+      "rawAzimuthDifferenceArcseconds": -318286.0159616995,
+      "rawAltitudeDifferenceArcseconds": -0.012265167761427165,
+      "rawHorizontalSeparationArcseconds": 290487.90944248275,
+      "icrfSeparationArcseconds": 0.002623850873374448,
+      "commonWGS84SeparationArcseconds": 0.002623850842559329,
+      "reconstructedHorizonsSeparationArcseconds": 1.6712334352985417e-06
+    }
+  ],
+  "empiricalMeridianCoefficientArcseconds": {
+    "count": 6,
+    "mean": 0.35119398073240043,
+    "median": 0.35119067814070093,
+    "p95": 0.3512073279477845,
+    "maximum": 0.3512123738724589
+  },
+  "interpretation": "Horizons Q4 is reproduced using Q2, Q7 and input geodetic latitude. Raw Q4 vs WGS84 ENU uses different horizon conventions; ICRF and shared WGS84 directions agree. External EOP explains leading polar amplification but does not reproduce the exact legacy Horizons Earth transform.",
+  "limitations": "Shared-frame projection is not independent Earth-orientation validation. Empirical coefficient diagnoses a coordinate convention; it is not a calibration applied to the native model. Exact-pole azimuth depends on the chosen meridian.",
+  "generatedAt": "2026-09-22T07:12:21.076670+00:00",
+  "artifactSHA256": {
+    "polar_diagnostics.py": "1fd3d192996f14442b4d4eec229d4b28f50badb4b8e3c32b49ec7d624e123dc8",
+    "polar-diagnostics-fixtures.json": "cf49a34d24196d7351d37112ef9e10c75e40aeab5b7fb6867a6d040983e5dad4",
+    "validate.py": "33b7f2a1c4b8f1dce2a582d55c68537fc2f221609d1bd8e6e3dff2d7bf703f91",
+    "native/lunar.cpp": "2aefd23cad28109bc57901931697643ad0ba653490cba2fdc4427827a96f0e27",
+    "native/lunar.h": "63774668f790ce51fa204d62897e4c940bb880d0bb0d16e1533d18e25aaea661"
+  },
+  "buildManifestSHA256": "ed92290765d7d5eba590595e2f890906a4f5219cf7cf28191ca6edcb91d897b0"
+}

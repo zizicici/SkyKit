@@ -1,0 +1,112 @@
+{
+  "kernel": {
+    "format": "LUNAR001 little endian",
+    "startTDBDaysSinceJ2000": -54786.5,
+    "endTDBDaysSinceJ2000Exclusive": 54786.5,
+    "segments": [
+      {
+        "center": 0,
+        "body": 3,
+        "records": 6849,
+        "terms": 13,
+        "bytes": 2136888
+      },
+      {
+        "center": 0,
+        "body": 10,
+        "records": 6849,
+        "terms": 11,
+        "bytes": 1808136
+      },
+      {
+        "center": 3,
+        "body": 399,
+        "records": 27395,
+        "terms": 13,
+        "bytes": 8547240
+      },
+      {
+        "center": 3,
+        "body": 301,
+        "records": 27395,
+        "terms": 13,
+        "bytes": 8547240
+      }
+    ],
+    "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440s.bsp",
+    "sourceSHA256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+    "bytes": 21039660,
+    "sha256": "95a58477306cbe6c7ccd7b6691e8440ab5e58b654e9352e17581cb14f06433d8"
+  },
+  "erfaVersion": "2.0.1",
+  "erfaArchiveSHA256": "d5469fbd0b212b3c7270c1da15c9bd82f37da9218fc89627f98283d27b416cbf",
+  "nativePrototypeSHA256": {
+    "native/lunar.cpp": "5a91c09eee7c228f62d1515a00ba5aa6a8b211e563fc7be4a7a5670c8af11694",
+    "native/lunar.h": "4bba3154dc3c7730398820324dc6d39a49b753f04a254aa418d1742780174c7c"
+  },
+  "eop": {
+    "source": "https://maia.usno.navy.mil/ser7/finals2000A.all",
+    "sha256": "c672540e026d3cd4840c0858d4ce2bc4a18c3bc9751f9636c3285e11950d58a1",
+    "startMJD": 41684.0,
+    "endMJD": 61673.0,
+    "lastObservedMJD": 61300.0
+  },
+  "fileSHA256": {
+    "Sources/NativeSky/erfa/ab.c": "ff4bac5fc8a2ccb5d1f63404c96734fd125069382c7f7a29add598721a122527",
+    "Sources/NativeSky/erfa/anp.c": "41f132914547ce4137edf024bc809fd7dfed3e0f5ff5b38f22313c884e8978e3",
+    "Sources/NativeSky/erfa/bpn2xy.c": "8771bc7db7aeb18f8d9d6fc258d5a28db55e05f3345df0564b4c71a20cc01dfb",
+    "Sources/NativeSky/erfa/c2ixys.c": "8b220605ef6bb81757b53e5ee7df638e9a0c834d0d8fb8a312d2a603f4877f36",
+    "Sources/NativeSky/erfa/c2tcio.c": "1a219863130bcb49ae67f424264776339aea8db5fdd0e716dbff660fbdd65a44",
+    "Sources/NativeSky/erfa/cp.c": "5173afc0a536e2b27f45ca55e3ee28116d007b7750a0d631c57631f417b3993b",
+    "Sources/NativeSky/erfa/cr.c": "9d9be7e696b8ddf00847c24eb9be01da00bf8099f652bc07053d535f1135fc25",
+    "Sources/NativeSky/erfa/dtdb.c": "228bd7c7c1c88dda44c29a076f289c968f64d77a2dc389138b03ab5d1d442105",
+    "Sources/NativeSky/erfa/ecm06.c": "3667c8ec9074092dd8cc869fb678e4ecdaaa6fcaaf8c60f0a2a685b32029d1af",
+    "Sources/NativeSky/erfa/eform.c": "696e0b5c519d79946504d1925bf7abbee3a25e5dc35c9ff8e0358a4989e01894",
+    "Sources/NativeSky/erfa/era00.c": "91c092c322d070305ba02873005bcb03110d7c26674fbdc7105477c50543ffb5",
+    "Sources/NativeSky/erfa/erfa.h": "9549553b95ca2fbbcdcabcc69d82fb3cdd376c28b03c2793200138ff55727088",
+    "Sources/NativeSky/erfa/erfadatextra.h": "8b96327cb3bd1d08b541fc0e468f5c07d9c9a1b09156e90b6756d67d5ef66361",
+    "Sources/NativeSky/erfa/erfaextra.h": "e7271743062333df52f188a6d28c29295a8cb54d5540385f3238127c4139a8e2",
+    "Sources/NativeSky/erfa/erfam.h": "0da6313033aacf9c64533a7e74be49ecda97b4aaa87e134f98287e4ff279886f",
+    "Sources/NativeSky/erfa/fad03.c": "e4f280ff76de95e9a71e19ef9aef3732fa7b04012ca23e3d43691173c66dc2dd",
+    "Sources/NativeSky/erfa/fae03.c": "087d3cc3f175ba33db2c47b9d4ed448ca1986554449cbae0a68daa2bd91f106d",
+    "Sources/NativeSky/erfa/faf03.c": "f58a0dc1fc1595af02e906c7d08da3e8e941a66b3ac6df9047a1718db314b3b6",
+    "Sources/NativeSky/erfa/faju03.c": "f52443bc80596d3aa03811c54a8ea90aad4e25dea1a361aa9ea885f311815a28",
+    "Sources/NativeSky/erfa/fal03.c": "0bc94f25a7722de16379f9311da74e9b132e9db52db4e597f7d24e9060529779",
+    "Sources/NativeSky/erfa/falp03.c": "8ceb012c045ec672bc63cd85260c8e45d0eebf67ae09bce68d520bde625879c1",
+    "Sources/NativeSky/erfa/fama03.c": "2e76a446a5136526778d63aa05f840538560bfc11318b71ff78716f042ed2b3a",
+    "Sources/NativeSky/erfa/fame03.c": "661c2cbdd428cc1bd392b5d089832183a4158037f2418f1f752f702cc3d1dbfd",
+    "Sources/NativeSky/erfa/faom03.c": "d101f54bc44c92786cc91daa9700625f17d7e83226adc9787e0fe100e148aa49",
+    "Sources/NativeSky/erfa/fapa03.c": "26fcc8d0b26d349e0a827ea315759c92660b55baa954d4aa2f931e213173f6a0",
+    "Sources/NativeSky/erfa/fasa03.c": "70b6c589dc1a81226d813b4db738e4409083083b4eed2b659f3e3c913ea9dc35",
+    "Sources/NativeSky/erfa/faur03.c": "6374bdcf987b20ca2103965a05a1ecb3b5e2502b6065459d834170495fab02e3",
+    "Sources/NativeSky/erfa/fave03.c": "8652237b8d7b6558ed911edfc55f714b519e9491a90c9f0f739f884e1693c505",
+    "Sources/NativeSky/erfa/fw2m.c": "480d1ae7780566980b8f80f4c6daa2be330a80e99861d892dc5a9f7b11da47c0",
+    "Sources/NativeSky/erfa/gd2gc.c": "8e19a6166f26fc9b959c456c23ff26428e3e57c97ad9e6e32e71dcac8b107eb9",
+    "Sources/NativeSky/erfa/gd2gce.c": "8d9b5c1b91f7e7b798d9187a4baf3252eab5423f4ff342f7386224a54da7185d",
+    "Sources/NativeSky/erfa/ir.c": "55e3325cd77770315f20dfdee5e7028f56b7bfb97be966db922abcc8885091f1",
+    "Sources/NativeSky/erfa/ld.c": "affa41a6028f8f2ec23978c6b707771ab654438c2bdb9fcd4a1c4b1a42dad06a",
+    "Sources/NativeSky/erfa/nut00a.c": "a1538ec0277745db974ab76ca4b678a7602249bccecf9474e2b0268f9c2032ef",
+    "Sources/NativeSky/erfa/nut06a.c": "819c36a689c28e50aaf71ec6d9774da5130df09657a07ab07520ae3712414d07",
+    "Sources/NativeSky/erfa/obl06.c": "550260874d5e5fa3be77296b85b92c54c726fee6fbb1bb44748d04c17ffb37c2",
+    "Sources/NativeSky/erfa/pdp.c": "7c156c25e55eccbe06506e15accc7d28c45175a20295cbfd95908c9ed3a705c8",
+    "Sources/NativeSky/erfa/pfw06.c": "085f49861026fab98633d8479795090b3278a0d246a938ebdf10fde326ef1987",
+    "Sources/NativeSky/erfa/pmat06.c": "f8c33e0f8003fc5482bf091456beaed55d10ffc608d7df04b877615a09238a09",
+    "Sources/NativeSky/erfa/pnm06a.c": "ea1814a86aad0895b6f1d5a48ef0308474df1f8fcf27abe6c0293165d8367b99",
+    "Sources/NativeSky/erfa/pom00.c": "19182ef9805c998ed46ec6304a6fb2e869856b85a97cb2391e3e1ec26687f043",
+    "Sources/NativeSky/erfa/pxp.c": "b1e8e96ea633bcefa1d71b0e09fb6d9fe8ca8ad43e1546ee603396323bd68b12",
+    "Sources/NativeSky/erfa/rx.c": "b740bba3cce0502620662f6e667369734f6adf56064919394ae1ae3ae3e70c64",
+    "Sources/NativeSky/erfa/rxr.c": "0737e2241086119b642bd0be2e7fadc4b7aa27454ff7561be8a74379772a2912",
+    "Sources/NativeSky/erfa/ry.c": "50c7f3e5a6065c896c7de0aca28bbf8f4c4624445a5675f08463b0d6a2392f02",
+    "Sources/NativeSky/erfa/rz.c": "d4ef2eb4a9744617b510c2370ba5ff5f3c0acaafb07a0eb6138c6f2128005bcc",
+    "Sources/NativeSky/erfa/s06.c": "6ad19dd59c3150d9f065b3f76d254c1cf3adb0cb6bacd6422c1dc6b6f14122ea",
+    "Sources/NativeSky/erfa/sp00.c": "120c1363c7f912272ed689ca186df1d16f3a8f8992dd7b981c94e9cba4a8980a",
+    "Sources/NativeSky/erfa/xys06a.c": "a0b87f7a16b843254d11df469ce3b809cd44155611e361b25580ea6d4086f6ae",
+    "Sources/NativeSky/erfa/zp.c": "4c4e737af17d3254ccc16754d09b160cc9e9292aebcc4d19ed6d018f0fb5ec8a",
+    "Sources/NativeSky/include/lunar.h": "4bba3154dc3c7730398820324dc6d39a49b753f04a254aa418d1742780174c7c",
+    "Sources/NativeSky/include/lunar_time.h": "f4b52f022481c09e5c1b8723b7cca5ca20bbdcb6dcf8ad63eca56c2645906cf3",
+    "Sources/NativeSky/lunar.cpp": "5a91c09eee7c228f62d1515a00ba5aa6a8b211e563fc7be4a7a5670c8af11694",
+    "Sources/NativeSky/lunar_time.c": "520780ab5d8781ea6e41e32cc44b8d2f3a3069318452a6c4705ad330757247cf",
+    "Sources/SkyKit/Resources/earth-orientation.json": "bb81acfd2e32fa4587aa9f31c9a7e891a8cc84055296f4e042b58c9d37ea9698",
+    "Sources/SkyKit/Resources/moon-1850-2149.bin": "95a58477306cbe6c7ccd7b6691e8440ab5e58b654e9352e17581cb14f06433d8"
+  }
+}

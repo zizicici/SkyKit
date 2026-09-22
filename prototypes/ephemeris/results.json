@@ -1,0 +1,627 @@
+{
+  "generatedAt": "2026-09-22T08:08:38.894957+00:00",
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "cpu": "Apple M4 Pro"
+  },
+  "build": {
+    "kernel": {
+      "format": "LUNAR001 little endian",
+      "startTDBDaysSinceJ2000": -0.5,
+      "endTDBDaysSinceJ2000Exclusive": 18627.5,
+      "segments": [
+        {
+          "center": 0,
+          "body": 3,
+          "records": 1165,
+          "terms": 13,
+          "bytes": 363480
+        },
+        {
+          "center": 0,
+          "body": 10,
+          "records": 1165,
+          "terms": 11,
+          "bytes": 307560
+        },
+        {
+          "center": 3,
+          "body": 399,
+          "records": 4659,
+          "terms": 13,
+          "bytes": 1453608
+        },
+        {
+          "center": 3,
+          "body": 301,
+          "records": 4659,
+          "terms": 13,
+          "bytes": 1453608
+        }
+      ],
+      "bytes": 3578412,
+      "sha256": "7bbcf3e00a86f10f09a2d0aa03659599bfd930039ac9b9ad7d9b425251301a37"
+    },
+    "builds": [
+      {
+        "sdk": "macosx",
+        "erfaSourceFiles": 45,
+        "archiveBytes": 179056,
+        "nativeSourceSHA256": {
+          "native/lunar.cpp": "5a91c09eee7c228f62d1515a00ba5aa6a8b211e563fc7be4a7a5670c8af11694",
+          "native/lunar.h": "4bba3154dc3c7730398820324dc6d39a49b753f04a254aa418d1742780174c7c",
+          "native/benchmark.cpp": "6f823c1bd8af579561e326c0a67404b215ed045733b7949b884c90d5c998f183",
+          "prepare.py": "25a20dadca040e24e9b474a7a77d7e2fef4af9e2c86d0cebb0dc26ddec3ec72c"
+        },
+        "erfaSourceSHA256": {
+          "erfa-2.0.1/src/ab.c": "ff4bac5fc8a2ccb5d1f63404c96734fd125069382c7f7a29add598721a122527",
+          "erfa-2.0.1/src/anp.c": "41f132914547ce4137edf024bc809fd7dfed3e0f5ff5b38f22313c884e8978e3",
+          "erfa-2.0.1/src/bpn2xy.c": "8771bc7db7aeb18f8d9d6fc258d5a28db55e05f3345df0564b4c71a20cc01dfb",
+          "erfa-2.0.1/src/c2ixys.c": "8b220605ef6bb81757b53e5ee7df638e9a0c834d0d8fb8a312d2a603f4877f36",
+          "erfa-2.0.1/src/c2tcio.c": "1a219863130bcb49ae67f424264776339aea8db5fdd0e716dbff660fbdd65a44",
+          "erfa-2.0.1/src/cp.c": "5173afc0a536e2b27f45ca55e3ee28116d007b7750a0d631c57631f417b3993b",
+          "erfa-2.0.1/src/cr.c": "9d9be7e696b8ddf00847c24eb9be01da00bf8099f652bc07053d535f1135fc25",
+          "erfa-2.0.1/src/ecm06.c": "3667c8ec9074092dd8cc869fb678e4ecdaaa6fcaaf8c60f0a2a685b32029d1af",
+          "erfa-2.0.1/src/eform.c": "696e0b5c519d79946504d1925bf7abbee3a25e5dc35c9ff8e0358a4989e01894",
+          "erfa-2.0.1/src/era00.c": "91c092c322d070305ba02873005bcb03110d7c26674fbdc7105477c50543ffb5",
+          "erfa-2.0.1/src/fad03.c": "e4f280ff76de95e9a71e19ef9aef3732fa7b04012ca23e3d43691173c66dc2dd",
+          "erfa-2.0.1/src/fae03.c": "087d3cc3f175ba33db2c47b9d4ed448ca1986554449cbae0a68daa2bd91f106d",
+          "erfa-2.0.1/src/faf03.c": "f58a0dc1fc1595af02e906c7d08da3e8e941a66b3ac6df9047a1718db314b3b6",
+          "erfa-2.0.1/src/faju03.c": "f52443bc80596d3aa03811c54a8ea90aad4e25dea1a361aa9ea885f311815a28",
+          "erfa-2.0.1/src/fal03.c": "0bc94f25a7722de16379f9311da74e9b132e9db52db4e597f7d24e9060529779",
+          "erfa-2.0.1/src/falp03.c": "8ceb012c045ec672bc63cd85260c8e45d0eebf67ae09bce68d520bde625879c1",
+          "erfa-2.0.1/src/fama03.c": "2e76a446a5136526778d63aa05f840538560bfc11318b71ff78716f042ed2b3a",
+          "erfa-2.0.1/src/fame03.c": "661c2cbdd428cc1bd392b5d089832183a4158037f2418f1f752f702cc3d1dbfd",
+          "erfa-2.0.1/src/faom03.c": "d101f54bc44c92786cc91daa9700625f17d7e83226adc9787e0fe100e148aa49",
+          "erfa-2.0.1/src/fapa03.c": "26fcc8d0b26d349e0a827ea315759c92660b55baa954d4aa2f931e213173f6a0",
+          "erfa-2.0.1/src/fasa03.c": "70b6c589dc1a81226d813b4db738e4409083083b4eed2b659f3e3c913ea9dc35",
+          "erfa-2.0.1/src/faur03.c": "6374bdcf987b20ca2103965a05a1ecb3b5e2502b6065459d834170495fab02e3",
+          "erfa-2.0.1/src/fave03.c": "8652237b8d7b6558ed911edfc55f714b519e9491a90c9f0f739f884e1693c505",
+          "erfa-2.0.1/src/fw2m.c": "480d1ae7780566980b8f80f4c6daa2be330a80e99861d892dc5a9f7b11da47c0",
+          "erfa-2.0.1/src/gd2gc.c": "8e19a6166f26fc9b959c456c23ff26428e3e57c97ad9e6e32e71dcac8b107eb9",
+          "erfa-2.0.1/src/gd2gce.c": "8d9b5c1b91f7e7b798d9187a4baf3252eab5423f4ff342f7386224a54da7185d",
+          "erfa-2.0.1/src/ir.c": "55e3325cd77770315f20dfdee5e7028f56b7bfb97be966db922abcc8885091f1",
+          "erfa-2.0.1/src/ld.c": "affa41a6028f8f2ec23978c6b707771ab654438c2bdb9fcd4a1c4b1a42dad06a",
+          "erfa-2.0.1/src/nut00a.c": "a1538ec0277745db974ab76ca4b678a7602249bccecf9474e2b0268f9c2032ef",
+          "erfa-2.0.1/src/nut06a.c": "819c36a689c28e50aaf71ec6d9774da5130df09657a07ab07520ae3712414d07",
+          "erfa-2.0.1/src/obl06.c": "550260874d5e5fa3be77296b85b92c54c726fee6fbb1bb44748d04c17ffb37c2",
+          "erfa-2.0.1/src/pdp.c": "7c156c25e55eccbe06506e15accc7d28c45175a20295cbfd95908c9ed3a705c8",
+          "erfa-2.0.1/src/pfw06.c": "085f49861026fab98633d8479795090b3278a0d246a938ebdf10fde326ef1987",
+          "erfa-2.0.1/src/pmat06.c": "f8c33e0f8003fc5482bf091456beaed55d10ffc608d7df04b877615a09238a09",
+          "erfa-2.0.1/src/pnm06a.c": "ea1814a86aad0895b6f1d5a48ef0308474df1f8fcf27abe6c0293165d8367b99",
+          "erfa-2.0.1/src/pom00.c": "19182ef9805c998ed46ec6304a6fb2e869856b85a97cb2391e3e1ec26687f043",
+          "erfa-2.0.1/src/pxp.c": "b1e8e96ea633bcefa1d71b0e09fb6d9fe8ca8ad43e1546ee603396323bd68b12",
+          "erfa-2.0.1/src/rx.c": "b740bba3cce0502620662f6e667369734f6adf56064919394ae1ae3ae3e70c64",
+          "erfa-2.0.1/src/rxr.c": "0737e2241086119b642bd0be2e7fadc4b7aa27454ff7561be8a74379772a2912",
+          "erfa-2.0.1/src/ry.c": "50c7f3e5a6065c896c7de0aca28bbf8f4c4624445a5675f08463b0d6a2392f02",
+          "erfa-2.0.1/src/rz.c": "d4ef2eb4a9744617b510c2370ba5ff5f3c0acaafb07a0eb6138c6f2128005bcc",
+          "erfa-2.0.1/src/s06.c": "6ad19dd59c3150d9f065b3f76d254c1cf3adb0cb6bacd6422c1dc6b6f14122ea",
+          "erfa-2.0.1/src/sp00.c": "120c1363c7f912272ed689ca186df1d16f3a8f8992dd7b981c94e9cba4a8980a",
+          "erfa-2.0.1/src/xys06a.c": "a0b87f7a16b843254d11df469ce3b809cd44155611e361b25580ea6d4086f6ae",
+          "erfa-2.0.1/src/zp.c": "4c4e737af17d3254ccc16754d09b160cc9e9292aebcc4d19ed6d018f0fb5ec8a",
+          "erfa-2.0.1/src/erfa.h": "9549553b95ca2fbbcdcabcc69d82fb3cdd376c28b03c2793200138ff55727088",
+          "erfa-2.0.1/src/erfam.h": "0da6313033aacf9c64533a7e74be49ecda97b4aaa87e134f98287e4ff279886f",
+          "erfa-2.0.1/src/erfaextra.h": "e7271743062333df52f188a6d28c29295a8cb54d5540385f3238127c4139a8e2",
+          "erfa-2.0.1/src/erfadatextra.h": "8b96327cb3bd1d08b541fc0e468f5c07d9c9a1b09156e90b6756d67d5ef66361"
+        },
+        "outputSHA256": {
+          "macos/ab.o": "27dafc5bc453bce07b1caba9c10a0070c9ed9bd5f369fcc49ddab1dd6575a8be",
+          "macos/anp.o": "f2e98ba4f9a9a6ce4e7c470698dd05342743d4c5e92abc2f6260cf54f84dcb52",
+          "macos/bpn2xy.o": "c1232e39396a940ace9c1f55558a40a319ec45de1ae348a033f024b3c43615ba",
+          "macos/c2ixys.o": "a4f2aad408f07f87fc877c0f3406f443eae581dc3f5c3815d57e7de8e539dfa1",
+          "macos/c2tcio.o": "cd5f33227fc1b7aa07d135eae119a593642d8086ca73366083b8fe5d5336a14b",
+          "macos/cp.o": "013b48f7b47228fa84754a8d5fcca827e5cad0c0f54ffd7c3fe1d01f0a9b68d0",
+          "macos/cr.o": "27cdd1ce8f4a40bab5e971c915b2f673757c2d8e6e79e3b278d1734070dcc249",
+          "macos/ecm06.o": "0c190c76b272f1caa69bf815f336bf590254e306890ede52003132304e113b8a",
+          "macos/eform.o": "3edc99a0970757ba02558c0230acac59cf390036a7866e4ba42857a326a2a469",
+          "macos/era00.o": "4eea4fdbb984a8412023518ac82cdabc4e43dea1106109a26baf6c30a06f2722",
+          "macos/fad03.o": "2c0ddac85f7bc8f26cd65002bb8a616c34e6945ab6624dfbf7561b1ec0195429",
+          "macos/fae03.o": "4abd671681c347be66134df9433e60da781fe0f6cce61d681716993ca7724a2d",
+          "macos/faf03.o": "65324c72d18259ac2d1f9e6fc4db39916d1f3bbdd58c934b7df22ddeeec2bc14",
+          "macos/faju03.o": "fc0447e49a1029d51648fef57a1b9a5c4c43ac6a9ded0f710e2f904fd94400f4",
+          "macos/fal03.o": "89896313ccd509009c63772d2adf029937649c172e36bf055cbc537da6744e86",
+          "macos/falp03.o": "bce112de5999b378d4277c5af8582eb5ea8fcfc4674cbddb14880037a1d37355",
+          "macos/fama03.o": "d6a14cf86ecbe85f15f1358f1e63a9bdead2e485baf63c7f706a1cd463cb5c6e",
+          "macos/fame03.o": "f4dc5c6415847c828c92e9e115e0bba55309bd3a9bf8145d7c30e288dee83815",
+          "macos/faom03.o": "35a50d5082161582f27e1f3b99bb5cfe200ea72dd6cc0ab9ff8ac9e2cce30f96",
+          "macos/fapa03.o": "57e43c10287c3d8d5ea9d823b567bbb586bbd8f8c1f21d489d2e4e1a5a65df96",
+          "macos/fasa03.o": "40ad8ef3f6bce4ec121a44abd441cefbab23f243f4b1d1f3a5fdfcb5e069526d",
+          "macos/faur03.o": "09f934dbf0fa711703dd6f55b2be578dfb1452d48e199929e25d950d4c932112",
+          "macos/fave03.o": "2111e6a039777bc15414d506f7ee989a115013dd2028b6c8baedc5338945fd85",
+          "macos/fw2m.o": "79b72abc385845d95b5e8428a18727ecdf0a1603b7a1f08dbce76e264055b51a",
+          "macos/gd2gc.o": "a95f6f246cc5dbaa628df7a32273633436d8b532c60144e865e7fc49a059119a",
+          "macos/gd2gce.o": "851e1dd2d4dfd7fd5c8e2d6c3b0a6c10555062564de881b534eac96f403a2b98",
+          "macos/ir.o": "44152af9c06a3dca7b9cceec858d3b3d9b7f85f63c5bdf405aa4e3a3d2e5f91d",
+          "macos/ld.o": "bed8c9d305536b2ca07ec5366e53532363ecdd3f0b5e9e3f8833908ca76bd098",
+          "macos/nut00a.o": "19df2b09d4d45d51f445d5fc90d070f08f6c74fad29ad4d0e595b47416f0c919",
+          "macos/nut06a.o": "d1f37a76f5365d9ed931a709157aced61a4b89a67cbf8f941053db899655d507",
+          "macos/obl06.o": "6f819a3dddad9720db9b978742ce11bb53d220ceae97cf9a847402d8182362a1",
+          "macos/pdp.o": "8e278c7b4ad1d1cbaa0d3ecffff2b671f29945a29ba65534d17aa431103d03b9",
+          "macos/pfw06.o": "99235ef87f224ac64a89f1962eb8596834f01519dec0a7c05705b60d4ce31965",
+          "macos/pmat06.o": "47e9cac1af42f1f3119066a8fee6f84c029786fc2ea3aa7ad95a62b872f74eaf",
+          "macos/pnm06a.o": "4e5e151e3a1a30a421548573c4e431956211b55cc0112481a3307e6e219c0cec",
+          "macos/pom00.o": "9f6a7636cbc3479d505f3faa39a52964d9b79fc9268c1fe6327b2ad8f22ddb0a",
+          "macos/pxp.o": "17281a2fa0b6334b399ffe9445f09cc962bdeab38afa50a70fb788adb590ebc5",
+          "macos/rx.o": "28bb6d78c8252bf079c36957177a7f81564c61c472b76b5444140ad123c8d4e0",
+          "macos/rxr.o": "f8776e28dc069ed33e567b01ab510c916f4cdc34476b1a44b3eee5856aa0d412",
+          "macos/ry.o": "bbc5bea5e386bc60cbf5bdb43af864763cb590f26721d36995c3d65cb355666f",
+          "macos/rz.o": "3c0075fbed43c6e35d71ad39d37a632ff160d24cb8fccee37d7b625ff4de1dd3",
+          "macos/s06.o": "f5c44c6f030e024dc052e6fc9951cf7a315106e92351bab7fec7b29cb57ab699",
+          "macos/sp00.o": "95faed6ec2fd40e35d326c116f191912084fe41376af58bdfa270baa45458b25",
+          "macos/xys06a.o": "3e0c3c7c44259f0202438fee571c6204423a1aee2d3068b790b4b80d51d6763d",
+          "macos/zp.o": "fe78caf82fc5bad433bb5756e1c2185cd01077868802a9dad0b5fd2dcccc8fd8",
+          "macos/lunar.o": "fd5896b5bc9bd348c9809e53792eae41d81772ffc9fd62b1f0af0ce022d35e6b",
+          "macos/liblunar.a": "c2d10133cf8228a19d356486f4b236067c49a2b9773d41ca9b3452771dbafb9e",
+          "macos/liblunar.dylib": "09f705c9c4b6228e6a08f0dda3135f0c0f78a2401aeaab32f08454f1286c121e",
+          "macos/benchmark": "35e360d4979be15e140accf210ed4e1f7283436a63ae45a7526bf61cef52b16b"
+        }
+      },
+      {
+        "sdk": "iphoneos",
+        "erfaSourceFiles": 45,
+        "archiveBytes": 196528,
+        "nativeSourceSHA256": {
+          "native/lunar.cpp": "5a91c09eee7c228f62d1515a00ba5aa6a8b211e563fc7be4a7a5670c8af11694",
+          "native/lunar.h": "4bba3154dc3c7730398820324dc6d39a49b753f04a254aa418d1742780174c7c",
+          "native/benchmark.cpp": "6f823c1bd8af579561e326c0a67404b215ed045733b7949b884c90d5c998f183",
+          "prepare.py": "25a20dadca040e24e9b474a7a77d7e2fef4af9e2c86d0cebb0dc26ddec3ec72c"
+        },
+        "erfaSourceSHA256": {
+          "erfa-2.0.1/src/ab.c": "ff4bac5fc8a2ccb5d1f63404c96734fd125069382c7f7a29add598721a122527",
+          "erfa-2.0.1/src/anp.c": "41f132914547ce4137edf024bc809fd7dfed3e0f5ff5b38f22313c884e8978e3",
+          "erfa-2.0.1/src/bpn2xy.c": "8771bc7db7aeb18f8d9d6fc258d5a28db55e05f3345df0564b4c71a20cc01dfb",
+          "erfa-2.0.1/src/c2ixys.c": "8b220605ef6bb81757b53e5ee7df638e9a0c834d0d8fb8a312d2a603f4877f36",
+          "erfa-2.0.1/src/c2tcio.c": "1a219863130bcb49ae67f424264776339aea8db5fdd0e716dbff660fbdd65a44",
+          "erfa-2.0.1/src/cp.c": "5173afc0a536e2b27f45ca55e3ee28116d007b7750a0d631c57631f417b3993b",
+          "erfa-2.0.1/src/cr.c": "9d9be7e696b8ddf00847c24eb9be01da00bf8099f652bc07053d535f1135fc25",
+          "erfa-2.0.1/src/ecm06.c": "3667c8ec9074092dd8cc869fb678e4ecdaaa6fcaaf8c60f0a2a685b32029d1af",
+          "erfa-2.0.1/src/eform.c": "696e0b5c519d79946504d1925bf7abbee3a25e5dc35c9ff8e0358a4989e01894",
+          "erfa-2.0.1/src/era00.c": "91c092c322d070305ba02873005bcb03110d7c26674fbdc7105477c50543ffb5",
+          "erfa-2.0.1/src/fad03.c": "e4f280ff76de95e9a71e19ef9aef3732fa7b04012ca23e3d43691173c66dc2dd",
+          "erfa-2.0.1/src/fae03.c": "087d3cc3f175ba33db2c47b9d4ed448ca1986554449cbae0a68daa2bd91f106d",
+          "erfa-2.0.1/src/faf03.c": "f58a0dc1fc1595af02e906c7d08da3e8e941a66b3ac6df9047a1718db314b3b6",
+          "erfa-2.0.1/src/faju03.c": "f52443bc80596d3aa03811c54a8ea90aad4e25dea1a361aa9ea885f311815a28",
+          "erfa-2.0.1/src/fal03.c": "0bc94f25a7722de16379f9311da74e9b132e9db52db4e597f7d24e9060529779",
+          "erfa-2.0.1/src/falp03.c": "8ceb012c045ec672bc63cd85260c8e45d0eebf67ae09bce68d520bde625879c1",
+          "erfa-2.0.1/src/fama03.c": "2e76a446a5136526778d63aa05f840538560bfc11318b71ff78716f042ed2b3a",
+          "erfa-2.0.1/src/fame03.c": "661c2cbdd428cc1bd392b5d089832183a4158037f2418f1f752f702cc3d1dbfd",
+          "erfa-2.0.1/src/faom03.c": "d101f54bc44c92786cc91daa9700625f17d7e83226adc9787e0fe100e148aa49",
+          "erfa-2.0.1/src/fapa03.c": "26fcc8d0b26d349e0a827ea315759c92660b55baa954d4aa2f931e213173f6a0",
+          "erfa-2.0.1/src/fasa03.c": "70b6c589dc1a81226d813b4db738e4409083083b4eed2b659f3e3c913ea9dc35",
+          "erfa-2.0.1/src/faur03.c": "6374bdcf987b20ca2103965a05a1ecb3b5e2502b6065459d834170495fab02e3",
+          "erfa-2.0.1/src/fave03.c": "8652237b8d7b6558ed911edfc55f714b519e9491a90c9f0f739f884e1693c505",
+          "erfa-2.0.1/src/fw2m.c": "480d1ae7780566980b8f80f4c6daa2be330a80e99861d892dc5a9f7b11da47c0",
+          "erfa-2.0.1/src/gd2gc.c": "8e19a6166f26fc9b959c456c23ff26428e3e57c97ad9e6e32e71dcac8b107eb9",
+          "erfa-2.0.1/src/gd2gce.c": "8d9b5c1b91f7e7b798d9187a4baf3252eab5423f4ff342f7386224a54da7185d",
+          "erfa-2.0.1/src/ir.c": "55e3325cd77770315f20dfdee5e7028f56b7bfb97be966db922abcc8885091f1",
+          "erfa-2.0.1/src/ld.c": "affa41a6028f8f2ec23978c6b707771ab654438c2bdb9fcd4a1c4b1a42dad06a",
+          "erfa-2.0.1/src/nut00a.c": "a1538ec0277745db974ab76ca4b678a7602249bccecf9474e2b0268f9c2032ef",
+          "erfa-2.0.1/src/nut06a.c": "819c36a689c28e50aaf71ec6d9774da5130df09657a07ab07520ae3712414d07",
+          "erfa-2.0.1/src/obl06.c": "550260874d5e5fa3be77296b85b92c54c726fee6fbb1bb44748d04c17ffb37c2",
+          "erfa-2.0.1/src/pdp.c": "7c156c25e55eccbe06506e15accc7d28c45175a20295cbfd95908c9ed3a705c8",
+          "erfa-2.0.1/src/pfw06.c": "085f49861026fab98633d8479795090b3278a0d246a938ebdf10fde326ef1987",
+          "erfa-2.0.1/src/pmat06.c": "f8c33e0f8003fc5482bf091456beaed55d10ffc608d7df04b877615a09238a09",
+          "erfa-2.0.1/src/pnm06a.c": "ea1814a86aad0895b6f1d5a48ef0308474df1f8fcf27abe6c0293165d8367b99",
+          "erfa-2.0.1/src/pom00.c": "19182ef9805c998ed46ec6304a6fb2e869856b85a97cb2391e3e1ec26687f043",
+          "erfa-2.0.1/src/pxp.c": "b1e8e96ea633bcefa1d71b0e09fb6d9fe8ca8ad43e1546ee603396323bd68b12",
+          "erfa-2.0.1/src/rx.c": "b740bba3cce0502620662f6e667369734f6adf56064919394ae1ae3ae3e70c64",
+          "erfa-2.0.1/src/rxr.c": "0737e2241086119b642bd0be2e7fadc4b7aa27454ff7561be8a74379772a2912",
+          "erfa-2.0.1/src/ry.c": "50c7f3e5a6065c896c7de0aca28bbf8f4c4624445a5675f08463b0d6a2392f02",
+          "erfa-2.0.1/src/rz.c": "d4ef2eb4a9744617b510c2370ba5ff5f3c0acaafb07a0eb6138c6f2128005bcc",
+          "erfa-2.0.1/src/s06.c": "6ad19dd59c3150d9f065b3f76d254c1cf3adb0cb6bacd6422c1dc6b6f14122ea",
+          "erfa-2.0.1/src/sp00.c": "120c1363c7f912272ed689ca186df1d16f3a8f8992dd7b981c94e9cba4a8980a",
+          "erfa-2.0.1/src/xys06a.c": "a0b87f7a16b843254d11df469ce3b809cd44155611e361b25580ea6d4086f6ae",
+          "erfa-2.0.1/src/zp.c": "4c4e737af17d3254ccc16754d09b160cc9e9292aebcc4d19ed6d018f0fb5ec8a",
+          "erfa-2.0.1/src/erfa.h": "9549553b95ca2fbbcdcabcc69d82fb3cdd376c28b03c2793200138ff55727088",
+          "erfa-2.0.1/src/erfam.h": "0da6313033aacf9c64533a7e74be49ecda97b4aaa87e134f98287e4ff279886f",
+          "erfa-2.0.1/src/erfaextra.h": "e7271743062333df52f188a6d28c29295a8cb54d5540385f3238127c4139a8e2",
+          "erfa-2.0.1/src/erfadatextra.h": "8b96327cb3bd1d08b541fc0e468f5c07d9c9a1b09156e90b6756d67d5ef66361"
+        },
+        "outputSHA256": {
+          "iphoneos/ab.o": "a9fbcf98800db93654e4d57e2f974835fa77efa6c6ac30c416fbdccf16199587",
+          "iphoneos/anp.o": "21eb98ba334bb8746b988527b1dfaa0f213a4ad26429df8daae6bb0522b39f97",
+          "iphoneos/bpn2xy.o": "e12cacd1300108f8e5d8e474e25284c44d361a634b6fb3f50037b1418f1640e1",
+          "iphoneos/c2ixys.o": "005bc6456754aa70a237a7fd69c3bf1bd46887c505b5b04507e74bcad271503d",
+          "iphoneos/c2tcio.o": "3fab5871094e735549fb2eaccf39b0edfdb55190d28d1f6789784396074faa37",
+          "iphoneos/cp.o": "44ba6941375f67ddd28d30abf4a7033e8f637b06330bc0eaec56549a9b88bfd6",
+          "iphoneos/cr.o": "06ce3ebafbbd97880201ee80d84538b53a5b0fdf5f80a0e1366be3e1b1410041",
+          "iphoneos/ecm06.o": "98eb38d9559a9a9326664d88a13c88d52150a5d9350f7cec493b5db009cb78a9",
+          "iphoneos/eform.o": "54fa4eb243ae6d93e6c6101992e154cd5b19f67966eb84d7acfc223790b11ef1",
+          "iphoneos/era00.o": "34bc13c138670a9a22ecb7cc985e2fdce9b21b27e4eba8ee0ad0c740723ba338",
+          "iphoneos/fad03.o": "2ede6a3dcaef7df970c014a72358813a236137a9b6f09150e2071a88d62461dc",
+          "iphoneos/fae03.o": "6f902c35090d8755a95446fe36deedadec8cb0d80daab7f740d2443b1265ece5",
+          "iphoneos/faf03.o": "9cb5a455c9b09b07bbf88572af27ef3fe33676733a7b9e7538b6bbe320c1c8a2",
+          "iphoneos/faju03.o": "4cc0ed696b2187320eacffb864acf315384648766ffece3cd3cbe0d6670b3cb1",
+          "iphoneos/fal03.o": "88b32931d853e2a966fb6f3b4d888e7e7989190284d63f478fcc3b00f3e26e61",
+          "iphoneos/falp03.o": "f29318d3899cdbc73796f52b6fe14ae66ff2cbc5390fee2bf08d4a4a772eac21",
+          "iphoneos/fama03.o": "43b6041ed7cd0be2f37c003b3e3c44714737887c9e6661e707680e012d0106dd",
+          "iphoneos/fame03.o": "b1f4730ea0171c774eafbaa05eef01bfc7664138d03924a5b26ca0411c26a68e",
+          "iphoneos/faom03.o": "a3778f50c41fb08b2f6175f59b349567d694163ad5e4c2a3fbd84eec799ba524",
+          "iphoneos/fapa03.o": "c1941f2f44ecff40f578f5cc8f10408f5aab54dff9919b559a8d0c8509c3a556",
+          "iphoneos/fasa03.o": "6883ce1d1d1f94af63cdffd1f0d1313722bb60473726ff983ed1184afe08d584",
+          "iphoneos/faur03.o": "b42a102b44236e146a59c7c87a77a92ba52c432551270619b7eac06e1e7037d8",
+          "iphoneos/fave03.o": "c122fef8b2ef9b08d1b5bf069795f03a0ff72cac050886b08fcf3716c7aa34a4",
+          "iphoneos/fw2m.o": "c349e773e3d9516c660494d6c1464c81437c4359c82db6c247795d6390a4c2ca",
+          "iphoneos/gd2gc.o": "3920be04b352e125a0a7e6e15d96e4cb1a8cce854f38f93d6d936a1e40a70af6",
+          "iphoneos/gd2gce.o": "eee9019e134265581341405fde823a0ee1c71d8faa0ec074a75d9930074d317d",
+          "iphoneos/ir.o": "e2f30f75044a8240265a303b6527dab91d4e55af45ee420551e036576fd7467e",
+          "iphoneos/ld.o": "ec104e5f135c4ac79b4b884e4723b526aaf4aede42093d24362bd6a8a6a27f56",
+          "iphoneos/nut00a.o": "61606b6cade3c55ba854bfb5624c7dd247fc52f8bf593f86c9920547665458e7",
+          "iphoneos/nut06a.o": "a392f0459d683101bbcf2a863274cf2b01cd0e6ec74edba7f46931e541a51b69",
+          "iphoneos/obl06.o": "c75cc5742bc5d44727e1feda15aa28b7672142ecc4ac9676d3300dd7817fcf92",
+          "iphoneos/pdp.o": "56d5a01625cfb54cb5152d9854b1623c133abae4ae9ba0183893aeb498222fbc",
+          "iphoneos/pfw06.o": "f9d4b3f2821e24ba9200705988d3529adebae7ce34257c2d4c7708e9fa7a1cab",
+          "iphoneos/pmat06.o": "3cbbdb0984d2cbaf45dbf5b8c4f985bde10f1405626c7bccaca71389129844c7",
+          "iphoneos/pnm06a.o": "57bda8c1613401bc0fcf777a78c36aba1c782f86b9293604dc54571b7b290433",
+          "iphoneos/pom00.o": "c9153c2d15a241cc24b546baf67f0a6219a68a9a0b693c0e26a91c2931c55570",
+          "iphoneos/pxp.o": "ad02d1727d095817010608816703d70dcb35f0a937a8caedf260db7a1ca331da",
+          "iphoneos/rx.o": "384efb309af4cc37ef3712572c6e48f9b03066c35e285013ba48c778c9c6243a",
+          "iphoneos/rxr.o": "f99b1eb37ef97b8408c54c4b89154b5bb21b00bae156f32d6966f6201bfa4677",
+          "iphoneos/ry.o": "43ad3d4282163fe146ab32a55d2ff229f19d01fe1d180d4fd4a62d21179bf08f",
+          "iphoneos/rz.o": "eadf08a449a4e211516abae15df169c749f698339d92b216cab4ef7938e18009",
+          "iphoneos/s06.o": "ab6749e28644d0b360ab479d94e5c0032e688332f6b66985e25f4b2c6ee1da38",
+          "iphoneos/sp00.o": "a3bf81d3b0bec890e14e308bf6d96fa21e86b5f9f2d32e258545f78e42b37c04",
+          "iphoneos/xys06a.o": "0e67e02807f8920132fbdcd9807e33faad791b34f2bd0d3147d42c7611ee9188",
+          "iphoneos/zp.o": "6fb2ce1011da890ee9e071eefb192120dbf508700116a01eb76c3211f680a45f",
+          "iphoneos/lunar.o": "9fe5a1e1094a127256ebf9bc445e5b395857e4366f3d91e61b3d2badca5d47f3",
+          "iphoneos/liblunar.a": "5f4926f36d12820070877f0c5f82d2096e3de46826538d9a49139586be12c95f"
+        }
+      },
+      {
+        "sdk": "iphonesimulator",
+        "erfaSourceFiles": 45,
+        "archiveBytes": 190752,
+        "nativeSourceSHA256": {
+          "native/lunar.cpp": "5a91c09eee7c228f62d1515a00ba5aa6a8b211e563fc7be4a7a5670c8af11694",
+          "native/lunar.h": "4bba3154dc3c7730398820324dc6d39a49b753f04a254aa418d1742780174c7c",
+          "native/benchmark.cpp": "6f823c1bd8af579561e326c0a67404b215ed045733b7949b884c90d5c998f183",
+          "prepare.py": "25a20dadca040e24e9b474a7a77d7e2fef4af9e2c86d0cebb0dc26ddec3ec72c"
+        },
+        "erfaSourceSHA256": {
+          "erfa-2.0.1/src/ab.c": "ff4bac5fc8a2ccb5d1f63404c96734fd125069382c7f7a29add598721a122527",
+          "erfa-2.0.1/src/anp.c": "41f132914547ce4137edf024bc809fd7dfed3e0f5ff5b38f22313c884e8978e3",
+          "erfa-2.0.1/src/bpn2xy.c": "8771bc7db7aeb18f8d9d6fc258d5a28db55e05f3345df0564b4c71a20cc01dfb",
+          "erfa-2.0.1/src/c2ixys.c": "8b220605ef6bb81757b53e5ee7df638e9a0c834d0d8fb8a312d2a603f4877f36",
+          "erfa-2.0.1/src/c2tcio.c": "1a219863130bcb49ae67f424264776339aea8db5fdd0e716dbff660fbdd65a44",
+          "erfa-2.0.1/src/cp.c": "5173afc0a536e2b27f45ca55e3ee28116d007b7750a0d631c57631f417b3993b",
+          "erfa-2.0.1/src/cr.c": "9d9be7e696b8ddf00847c24eb9be01da00bf8099f652bc07053d535f1135fc25",
+          "erfa-2.0.1/src/ecm06.c": "3667c8ec9074092dd8cc869fb678e4ecdaaa6fcaaf8c60f0a2a685b32029d1af",
+          "erfa-2.0.1/src/eform.c": "696e0b5c519d79946504d1925bf7abbee3a25e5dc35c9ff8e0358a4989e01894",
+          "erfa-2.0.1/src/era00.c": "91c092c322d070305ba02873005bcb03110d7c26674fbdc7105477c50543ffb5",
+          "erfa-2.0.1/src/fad03.c": "e4f280ff76de95e9a71e19ef9aef3732fa7b04012ca23e3d43691173c66dc2dd",
+          "erfa-2.0.1/src/fae03.c": "087d3cc3f175ba33db2c47b9d4ed448ca1986554449cbae0a68daa2bd91f106d",
+          "erfa-2.0.1/src/faf03.c": "f58a0dc1fc1595af02e906c7d08da3e8e941a66b3ac6df9047a1718db314b3b6",
+          "erfa-2.0.1/src/faju03.c": "f52443bc80596d3aa03811c54a8ea90aad4e25dea1a361aa9ea885f311815a28",
+          "erfa-2.0.1/src/fal03.c": "0bc94f25a7722de16379f9311da74e9b132e9db52db4e597f7d24e9060529779",
+          "erfa-2.0.1/src/falp03.c": "8ceb012c045ec672bc63cd85260c8e45d0eebf67ae09bce68d520bde625879c1",
+          "erfa-2.0.1/src/fama03.c": "2e76a446a5136526778d63aa05f840538560bfc11318b71ff78716f042ed2b3a",
+          "erfa-2.0.1/src/fame03.c": "661c2cbdd428cc1bd392b5d089832183a4158037f2418f1f752f702cc3d1dbfd",
+          "erfa-2.0.1/src/faom03.c": "d101f54bc44c92786cc91daa9700625f17d7e83226adc9787e0fe100e148aa49",
+          "erfa-2.0.1/src/fapa03.c": "26fcc8d0b26d349e0a827ea315759c92660b55baa954d4aa2f931e213173f6a0",
+          "erfa-2.0.1/src/fasa03.c": "70b6c589dc1a81226d813b4db738e4409083083b4eed2b659f3e3c913ea9dc35",
+          "erfa-2.0.1/src/faur03.c": "6374bdcf987b20ca2103965a05a1ecb3b5e2502b6065459d834170495fab02e3",
+          "erfa-2.0.1/src/fave03.c": "8652237b8d7b6558ed911edfc55f714b519e9491a90c9f0f739f884e1693c505",
+          "erfa-2.0.1/src/fw2m.c": "480d1ae7780566980b8f80f4c6daa2be330a80e99861d892dc5a9f7b11da47c0",
+          "erfa-2.0.1/src/gd2gc.c": "8e19a6166f26fc9b959c456c23ff26428e3e57c97ad9e6e32e71dcac8b107eb9",
+          "erfa-2.0.1/src/gd2gce.c": "8d9b5c1b91f7e7b798d9187a4baf3252eab5423f4ff342f7386224a54da7185d",
+          "erfa-2.0.1/src/ir.c": "55e3325cd77770315f20dfdee5e7028f56b7bfb97be966db922abcc8885091f1",
+          "erfa-2.0.1/src/ld.c": "affa41a6028f8f2ec23978c6b707771ab654438c2bdb9fcd4a1c4b1a42dad06a",
+          "erfa-2.0.1/src/nut00a.c": "a1538ec0277745db974ab76ca4b678a7602249bccecf9474e2b0268f9c2032ef",
+          "erfa-2.0.1/src/nut06a.c": "819c36a689c28e50aaf71ec6d9774da5130df09657a07ab07520ae3712414d07",
+          "erfa-2.0.1/src/obl06.c": "550260874d5e5fa3be77296b85b92c54c726fee6fbb1bb44748d04c17ffb37c2",
+          "erfa-2.0.1/src/pdp.c": "7c156c25e55eccbe06506e15accc7d28c45175a20295cbfd95908c9ed3a705c8",
+          "erfa-2.0.1/src/pfw06.c": "085f49861026fab98633d8479795090b3278a0d246a938ebdf10fde326ef1987",
+          "erfa-2.0.1/src/pmat06.c": "f8c33e0f8003fc5482bf091456beaed55d10ffc608d7df04b877615a09238a09",
+          "erfa-2.0.1/src/pnm06a.c": "ea1814a86aad0895b6f1d5a48ef0308474df1f8fcf27abe6c0293165d8367b99",
+          "erfa-2.0.1/src/pom00.c": "19182ef9805c998ed46ec6304a6fb2e869856b85a97cb2391e3e1ec26687f043",
+          "erfa-2.0.1/src/pxp.c": "b1e8e96ea633bcefa1d71b0e09fb6d9fe8ca8ad43e1546ee603396323bd68b12",
+          "erfa-2.0.1/src/rx.c": "b740bba3cce0502620662f6e667369734f6adf56064919394ae1ae3ae3e70c64",
+          "erfa-2.0.1/src/rxr.c": "0737e2241086119b642bd0be2e7fadc4b7aa27454ff7561be8a74379772a2912",
+          "erfa-2.0.1/src/ry.c": "50c7f3e5a6065c896c7de0aca28bbf8f4c4624445a5675f08463b0d6a2392f02",
+          "erfa-2.0.1/src/rz.c": "d4ef2eb4a9744617b510c2370ba5ff5f3c0acaafb07a0eb6138c6f2128005bcc",
+          "erfa-2.0.1/src/s06.c": "6ad19dd59c3150d9f065b3f76d254c1cf3adb0cb6bacd6422c1dc6b6f14122ea",
+          "erfa-2.0.1/src/sp00.c": "120c1363c7f912272ed689ca186df1d16f3a8f8992dd7b981c94e9cba4a8980a",
+          "erfa-2.0.1/src/xys06a.c": "a0b87f7a16b843254d11df469ce3b809cd44155611e361b25580ea6d4086f6ae",
+          "erfa-2.0.1/src/zp.c": "4c4e737af17d3254ccc16754d09b160cc9e9292aebcc4d19ed6d018f0fb5ec8a",
+          "erfa-2.0.1/src/erfa.h": "9549553b95ca2fbbcdcabcc69d82fb3cdd376c28b03c2793200138ff55727088",
+          "erfa-2.0.1/src/erfam.h": "0da6313033aacf9c64533a7e74be49ecda97b4aaa87e134f98287e4ff279886f",
+          "erfa-2.0.1/src/erfaextra.h": "e7271743062333df52f188a6d28c29295a8cb54d5540385f3238127c4139a8e2",
+          "erfa-2.0.1/src/erfadatextra.h": "8b96327cb3bd1d08b541fc0e468f5c07d9c9a1b09156e90b6756d67d5ef66361"
+        },
+        "outputSHA256": {
+          "iphonesimulator/ab.o": "100dea99f991eac54b3a60258b0e3cd024987235994b4dc426c61f8ef4f343ae",
+          "iphonesimulator/anp.o": "05c87a4dd9e6b89a4ea4881a8fdbabbd7f31fa1ffd884f472e9ef5b725e3e718",
+          "iphonesimulator/bpn2xy.o": "cf0fd91fc0ea728f904c3ed6cce8c583a92a7e58640c61772b198d0bf79eccea",
+          "iphonesimulator/c2ixys.o": "7baa417681ebb18562508ec84336d922d24ceff14302e530907f2a9704d69269",
+          "iphonesimulator/c2tcio.o": "b1c11aee12c27e413a21cac2603a3a5122dd3db1a7a0a0017bf5fcf952d69cab",
+          "iphonesimulator/cp.o": "51c6834397a0b813a9e06411d5acd422aac4b18369b62bc7a61183d20ef87dc1",
+          "iphonesimulator/cr.o": "5c22bfb69907d3931f04b524e779d390588c733b7c0dc2230be2f2c3b8a153dc",
+          "iphonesimulator/ecm06.o": "38f33af2569cb9be1772e8254cd48de4647d6ff36b52f3c87a47608ed75db963",
+          "iphonesimulator/eform.o": "685ca238a068224940a64a85b91d6cafd0b955c4cbca5819ec18cf7d63de0f22",
+          "iphonesimulator/era00.o": "d9c3553282becdea1124c2e6b30cf2078f0972d3f5feac0bfd9d0ca665f7c98c",
+          "iphonesimulator/fad03.o": "97b9ec4c60b9fbac0b71de7c002e9920c829580d7f8d2fcda9de47e237c42a10",
+          "iphonesimulator/fae03.o": "c30166b5ed4c310dab985ec1fad3f0a5f98d5058874864a25f1c7edd142dc8cb",
+          "iphonesimulator/faf03.o": "f05de338dee509fc91f2ed37f3fcb6422e062fe3cb517b08de177a787db64fa4",
+          "iphonesimulator/faju03.o": "fa0a66fd4b20a5d3facff66932a1aa154653db5faefa4127e47cbc9cb7194d69",
+          "iphonesimulator/fal03.o": "b896c4dd5e12001f3d9d6f66e61f9638ccde3c6168770db239893244a77296b8",
+          "iphonesimulator/falp03.o": "c3b3b12ebeb073b1822dd11a1c90a250e41326a9493fd5d27a35b764a894069b",
+          "iphonesimulator/fama03.o": "5e48c87c546d6d86fa9070fc016d025f734180d3f7895312166098b4ae72e046",
+          "iphonesimulator/fame03.o": "131c3fb698616f5bdec5670478f519c6373ee0d45cbd9da8561b2446bf9302a8",
+          "iphonesimulator/faom03.o": "fb54fa91f3cffc388d5e20b308185ccba5eeb9c6e006673c2e9fecf92574fdf2",
+          "iphonesimulator/fapa03.o": "f81215eff9bc471824bfb58136029a13578e50c25ec9d638210a91dda5895aa0",
+          "iphonesimulator/fasa03.o": "984d4720fce6071858196976a32fca9a2324d3af5da69b3d40082802de0bc144",
+          "iphonesimulator/faur03.o": "01d13175ce32df342ed14c4406ddcec6efcd6bd9c14a1fef3e7d1204e6bfdc16",
+          "iphonesimulator/fave03.o": "e9273e23191981549d2c96d444678e1a9ec88f5df0a74c97353a01be2c96f580",
+          "iphonesimulator/fw2m.o": "0fc3bac8b4e2d049af698a41630deb72d809501c0ec0e3ec87bd7eb33a2f884c",
+          "iphonesimulator/gd2gc.o": "0fa85ec38e0631d630e512cffedbdb597f6348593426c180e7d113346672865a",
+          "iphonesimulator/gd2gce.o": "42206b154c40ed35cee1f69efcb5c90f2d7bdb0f639cd13141ffd0843c5125e6",
+          "iphonesimulator/ir.o": "ca0869725ae46635b07b65eca8a88ec55958d0f23645496c30f8f7270dd89bf1",
+          "iphonesimulator/ld.o": "a29b19ac89afbbd3f71c2c12c2d69762143dbc6e6de866273b935e813ca47ad4",
+          "iphonesimulator/nut00a.o": "eb5544cc47b16298ccda96dfccfc3aefda3bca984b7bd12e1377e1a7d753564d",
+          "iphonesimulator/nut06a.o": "b50283c66653f9cbd10eb6109134a278756d1450d2d1e96b6febdcdad24a3f0d",
+          "iphonesimulator/obl06.o": "a6832f472025cc35d994678e0a2a4f7d31fd9258e5808d27e1e58be7f5668f36",
+          "iphonesimulator/pdp.o": "ef181f1317d2922e8a9b6b39181d6edd8f9bb00932a9d194ff79bceebc864bd7",
+          "iphonesimulator/pfw06.o": "24071bffb0e67313f31d135226cec22cbe5cbc90969e28a1c5e9072e3194d5b9",
+          "iphonesimulator/pmat06.o": "d35198e7351a6013c808fce474c372ba0c285cdb30eaf9263f5600b03e3fc0a2",
+          "iphonesimulator/pnm06a.o": "2d179110166a39ce8b8a0a40739891033c1a73414ec30a0d1f588b9b79973899",
+          "iphonesimulator/pom00.o": "bc78f52b7d051994c4a024d0a9f7956cff3fe50d9a8613765041b74e41691c27",
+          "iphonesimulator/pxp.o": "164c4ed52c3fa2a4e6a8c7ec8aad4bc163d5e940fd063db77d8677dadc5da660",
+          "iphonesimulator/rx.o": "d7efef08fa9cab58b802b823f35cbad64b8260f999f9e911626de197b7dd7d3f",
+          "iphonesimulator/rxr.o": "4d4f2bdab21ec43a18de8ea290e77d57662a4438c89a822d9a5a9a270f7ee4dd",
+          "iphonesimulator/ry.o": "6c48d5a732d5777fa0a9067ac20836efecb85c5f81b1f48dc6b7810cabcc32d0",
+          "iphonesimulator/rz.o": "aabf0f4f4bc8c7506c9b209248444bac9c7aa99d202823869c77e3ac441aa861",
+          "iphonesimulator/s06.o": "eef4a23b171edffd5a26670d3f0bcdc02c35ffac4cb3f0baabb4a3a363f5e45e",
+          "iphonesimulator/sp00.o": "cee2213b1cce0316bffefd7c3e30dd40c1c0f7e5be3a66b714c20a0c4854f19f",
+          "iphonesimulator/xys06a.o": "7f26eb88fba88e009561f826af77a7195b2f940b00a7d6a55309cb1bbcb2f176",
+          "iphonesimulator/zp.o": "fb5a12810d6bdb96a5011eb7cf409c2d5ecbccd2603dee0b13009e71c441a9fb",
+          "iphonesimulator/lunar.o": "98308fcd4d259c3eb7bdc8f51fdde73204761e4c49c55df16889870c326bfcff",
+          "iphonesimulator/liblunar.a": "d8205a6238cf32d2c2d23422dc059b8b911183541bf50240c5c299587a4203da",
+          "iphonesimulator/benchmark": "befe81f9e3b941da8a63efd842909b3b41ef71847f329e5e3a6fc1943562d409"
+        }
+      }
+    ],
+    "inputs": {
+      "de440s.bsp": [
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440s.bsp",
+        "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2"
+      ],
+      "erfa.tar.gz": [
+        "https://codeload.github.com/liberfa/erfa/tar.gz/refs/tags/v2.0.1",
+        "d5469fbd0b212b3c7270c1da15c9bd82f37da9218fc89627f98283d27b416cbf"
+      ],
+      "TDBtimes.txt": [
+        "https://raw.githubusercontent.com/ytliu0/ChineseCalendar/d6aae82b63b79a6f8659ea3e064024b7d8ac3077/src/TDBtimes.txt",
+        "38f5d14b6c55a25d0c9530edaba583372b22559716d8af94163da3e37486cc81"
+      ]
+    }
+  },
+  "artifactSHA256": {
+    "native/lunar.cpp": "5a91c09eee7c228f62d1515a00ba5aa6a8b211e563fc7be4a7a5670c8af11694",
+    "native/lunar.h": "4bba3154dc3c7730398820324dc6d39a49b753f04a254aa418d1742780174c7c",
+    "prepare.py": "25a20dadca040e24e9b474a7a77d7e2fef4af9e2c86d0cebb0dc26ddec3ec72c",
+    "validate.py": "33b7f2a1c4b8f1dce2a582d55c68537fc2f221609d1bd8e6e3dff2d7bf703f91",
+    "observation_checks.py": "a59116eeab1b1bc2d27f58a86a4ea6428502cfc953809a0a353353d827dad436",
+    "horizons-fixtures.json": "6b5c6aa98038178051b7e07d6ec136870dd52e67a8e8dced574fcf8727efffb7"
+  },
+  "buildProvenance": {
+    "rejectedChangedArtifacts": 10,
+    "verifiedBeforeLoadingNativeLibrary": true
+  },
+  "interpolation": {
+    "positionMeters": {
+      "count": 59880,
+      "mean": 0.0004913014685215529,
+      "median": 5.9604644775390625e-05,
+      "p95": 0.0012336505672823907,
+      "maximum": 0.003628794170004943
+    },
+    "velocityMetersPerSecond": {
+      "count": 59880,
+      "mean": 9.961366065883947e-11,
+      "median": 1.1234667099445444e-11,
+      "p95": 2.995720770004649e-10,
+      "maximum": 1.0160900868761166e-09
+    }
+  },
+  "phases": {
+    "reference": "ChineseCalendar unrounded TDBtimes.txt; DE431, IAU 2006",
+    "inclusiveSearchRegressionEvents": 2523,
+    "differenceSeconds": {
+      "count": 2523,
+      "mean": 0.0024569959320348334,
+      "median": 0.0023737549781799316,
+      "p95": 0.004385411739349365,
+      "maximum": 0.004707276821136475
+    },
+    "worst": {
+      "quarter": 1,
+      "tdbDaysSinceJ2000": 18499.123323253003,
+      "signedSeconds": 0.004707276821136475
+    },
+    "toleranceSeconds": 0.25
+  },
+  "directions": {
+    "skyfieldArcseconds": {
+      "count": 216,
+      "mean": 0.00015027407740548737,
+      "median": 0.0001558599682187967,
+      "p95": 0.00036159177388423813,
+      "maximum": 0.0004052188845774646
+    },
+    "horizonsArcseconds": {
+      "count": 12,
+      "mean": 0.24544734928678638,
+      "median": 0.04061524773032741,
+      "p95": 1.10101381138591,
+      "maximum": 1.990926518069086
+    },
+    "horizonsICRFArcseconds": {
+      "count": 16,
+      "mean": 0.004181444812208335,
+      "median": 0.0033067625131026515,
+      "p95": 0.005979155502984038,
+      "maximum": 0.006129397409025672
+    },
+    "horizonsCommonWGS84Arcseconds": {
+      "count": 16,
+      "mean": 0.004181444817403212,
+      "median": 0.003306762537409817,
+      "p95": 0.005979155517510378,
+      "maximum": 0.006129397491191195
+    },
+    "horizonsNearPoleArcseconds": {
+      "count": 2,
+      "mean": 20.216133249107042,
+      "median": 20.216133249107042,
+      "p95": 20.917240367499954,
+      "maximum": 20.9951411584325
+    },
+    "horizonsPoleAltitudeArcseconds": {
+      "count": 2,
+      "mean": 0.0063172989271720326,
+      "median": 0.0063172989271720326,
+      "p95": 0.011670380878001652,
+      "maximum": 0.012265167761427165
+    },
+    "illuminationFractionDifference": {
+      "count": 216,
+      "mean": 7.655472664485157e-09,
+      "median": 6.238208394293565e-09,
+      "p95": 1.798506842065617e-08,
+      "maximum": 2.481221006433998e-08
+    },
+    "phaseAngleArcseconds": {
+      "count": 216,
+      "mean": 0.00031567350949520306,
+      "median": 0.00035543837952900503,
+      "p95": 0.0005368178221942799,
+      "maximum": 0.000584023632654862
+    },
+    "earthOrientation": "Skyfield comparison: builtin UT1, xp=yp=0; Horizons: matching DUT1, xp=yp=0; airless",
+    "limitation": "Raw Horizons Q4 and fixed WGS84 ENU use different horizon conventions; see polar-diagnostics.md. Shared-frame comparison isolates celestial direction, not independent Earth-orientation accuracy. Exact legacy Horizons transform remains unmatched."
+  },
+  "nonzeroPolarMotion": {
+    "skyfieldArcseconds": {
+      "count": 30,
+      "mean": 0.00020961530864299424,
+      "median": 0.00022490477987008182,
+      "p95": 0.000387463895858748,
+      "maximum": 0.00039470635016910404
+    },
+    "polarMotionArcseconds": [
+      [
+        0.25,
+        0.4
+      ],
+      [
+        -0.2,
+        0.3
+      ]
+    ]
+  },
+  "correctedPoleObservation": {
+    "sofaCookbookMatrixMaximumElementError": 5.971889649458717e-13,
+    "reference": "https://www.iausofa.org/s/sofa_pn_c.pdf section 5.5",
+    "skyfieldSunOnlyICRFArcseconds": {
+      "count": 168,
+      "mean": 5.124344977518968e-07,
+      "median": 1.5036712470607908e-07,
+      "p95": 1.32844331515565e-06,
+      "maximum": 1.8477953704163496e-06
+    },
+    "solarDeflectionArcseconds": {
+      "count": 168,
+      "mean": 2.5951456706328478e-06,
+      "median": 2.6395681450846424e-06,
+      "p95": 5.0230348615634295e-06,
+      "maximum": 5.023086674658739e-06
+    },
+    "cipCorrectionArcseconds": {
+      "count": 168,
+      "mean": 0.00035722717255059783,
+      "median": 0.0003471891150091582,
+      "p95": 0.0006405747623849183,
+      "maximum": 0.000646366657104309
+    },
+    "nearPoleContinuityArcseconds": {
+      "count": 8,
+      "mean": 3.030973308169993e-05,
+      "median": 3.427587206888063e-05,
+      "p95": 3.4761923962960404e-05,
+      "maximum": 3.476192444153613e-05
+    },
+    "invalidInputsRejectedWithOutputUnchanged": 18,
+    "concurrentCalls": 168,
+    "limitation": "SOFA/ERFA matrix model is shared. Skyfield independently evaluates light time and finite-source solar deflection. Earth/planet deflection and atmosphere excluded on both sides."
+  },
+  "accuracyBoundaries": {
+    "leapSecondElapsedSeconds": [
+      [
+        0.9999999980209395,
+        0.9999999980209395,
+        0.9999999980209395
+      ],
+      [
+        0.9999999980209395,
+        0.9999999980209395,
+        0.9999999980209395
+      ]
+    ],
+    "leapSecondDirectionStepsArcseconds": [
+      13.81340627324353,
+      13.813401575113913
+    ],
+    "zenithNadirCases": 6,
+    "nearZenithNadirDirectionChangesArcseconds": {
+      "count": 24,
+      "mean": 0.0003535168093444276,
+      "median": 0.0003543855914586992,
+      "p95": 0.00036627531990528634,
+      "maximum": 0.00036635496079816997
+    },
+    "exampleInputSensitivityArcseconds": {
+      "UT1PlusOneSecond": 14.359565208471922,
+      "UT1IncorrectlySetToTT": 992.0804499795468,
+      "EllipsoidalHeightPlus100Meters": 0.02980025018215724,
+      "LatitudePlusApprox100Meters": 2.955891591818111
+    },
+    "scope": "Core supplied with correct TT/TDB/UT1; no production UTC/leap-second adapter exists yet. Sensitivities use one Singapore/date example, not global bounds. No memory or speed optimization applied."
+  },
+  "robustness": {
+    "rejectedOutOfRangeAndInvalidInputs": true,
+    "rejectedMalformedFiles": 10,
+    "invalidOutputUnchanged": true,
+    "concurrentCalls": 1000,
+    "threads": 8
+  },
+  "macOSBenchmark": {
+    "kernelLoadMilliseconds": 2.723417,
+    "microsecondsPerCall": {
+      "phaseAngle": 0.613275,
+      "nextQuarter": 20.170167,
+      "horizontal": 10.64885,
+      "illumination": 0.208846,
+      "observeWithCIP": 10.752458
+    }
+  },
+  "iOSSimulatorBenchmark": {
+    "kernelLoadMilliseconds": 0.976625,
+    "microsecondsPerCall": {
+      "phaseAngle": 0.410504,
+      "nextQuarter": 21.499333,
+      "horizontal": 10.73505,
+      "illumination": 0.214554,
+      "observeWithCIP": 10.780367
+    },
+    "deviceID": "8B8B53F2-6198-4CF4-9225-4E54C4F5DA3A"
+  },
+  "nativeCoreSanitizers": "AddressSanitizer and UBSan passed; instrumented native core, ERFA objects uninstrumented",
+  "acceptance": {
+    "regressionChecks": "passed",
+    "phaseReproduction": "passed",
+    "horizonsSubarcsecondHorizontal": "not_met",
+    "horizonsCommonFrameDirection": "passed",
+    "productionIntegration": "not_ready",
+    "reason": "Raw Horizons Q4 convention differs from WGS84 ENU; polar amplification diagnosed in polar-diagnostics.md. Common-frame direction passes; exact legacy EOP/frame matching, UTC/EOP lifecycle and device testing remain pending."
+  }
+}

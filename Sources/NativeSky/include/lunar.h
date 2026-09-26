@@ -49,6 +49,15 @@ int lunar_rotation(double tt, double ut1, double xp, double yp, double dX, doubl
 int lunar_observe(void *kernel, double tdb, double tt, double ut1,
                   double xp, double yp, double dX, double dY,
                   double latitude, double longitude, double height, double observation[8]);
+// Geometry for a spherical lunar atlas, not an apparent astrometric direction.
+// observer=0: Earth center (lat/lon/height must be zero), 1: WGS84 surface observer.
+// Output: [lunar emission TDB, Moon->observer ICRF vector (km), Moon->Sun ICRF
+// vector (km), true-of-date celestial north unit vector in ICRF]. Both light-time
+// legs are included. No aberration, deflection, refraction or eclipse shadows.
+// Lunar body orientation is evaluated separately by the Swift surface model.
+int lunar_surface_vectors(void *kernel, double tdb, double tt, double ut1,
+                          double xp, double yp, double dX, double dY, int observer,
+                          double latitude, double longitude, double height, double geometry[10]);
 // Native loop, excludes Python/Swift FFI and initialization. Returns microseconds/call.
 double lunar_benchmark(void *kernel, int operation, int iterations, double *checksum);
 

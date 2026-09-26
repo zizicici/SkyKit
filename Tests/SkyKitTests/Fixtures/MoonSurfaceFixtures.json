@@ -1,0 +1,606 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-26T04:02:29.141260+00:00",
+  "sources": {
+    "nasa": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005587/mooninfo_2026.json",
+    "nasaSHA256": "098ec6434ba4fecb84e66485385816d465b7969f142864bcfc9ffc68311b4a86",
+    "nasaNorthReference": "ICRF/J2000",
+    "horizonsNorthReference": "true equator of date",
+    "horizons": "https://ssd.jpl.nasa.gov/api/horizons.api",
+    "quantities": "13,14,15,17",
+    "documentation": "https://ssd.jpl.nasa.gov/horizons/manual.html"
+  },
+  "angularToleranceDegrees": 0.1,
+  "nasa": [
+    {
+      "utc": "2026-01-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1988.1,
+      "subObserver": [
+        -0.336,
+        -6.568
+      ],
+      "subSolar": [
+        26.456,
+        -1.338
+      ],
+      "northPolePositionAngle": 352.785
+    },
+    {
+      "utc": "2026-01-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1773.9,
+      "subObserver": [
+        -0.955,
+        6.644
+      ],
+      "subSolar": [
+        -143.595,
+        -1.129
+      ],
+      "northPolePositionAngle": 5.674
+    },
+    {
+      "utc": "2026-02-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1937.3,
+      "subObserver": [
+        4.087,
+        -3.594
+      ],
+      "subSolar": [
+        9.58,
+        -0.701
+      ],
+      "northPolePositionAngle": 13.491
+    },
+    {
+      "utc": "2026-02-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1825.5,
+      "subObserver": [
+        -4.442,
+        4.057
+      ],
+      "subSolar": [
+        -160.652,
+        -0.373
+      ],
+      "northPolePositionAngle": 347.798
+    },
+    {
+      "utc": "2026-03-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1906.5,
+      "subObserver": [
+        4.09,
+        -2.638
+      ],
+      "subSolar": [
+        28.853,
+        0.068
+      ],
+      "northPolePositionAngle": 15.998
+    },
+    {
+      "utc": "2026-03-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1837.1,
+      "subObserver": [
+        -5.494,
+        3.226
+      ],
+      "subSolar": [
+        -141.464,
+        0.42
+      ],
+      "northPolePositionAngle": 345.4
+    },
+    {
+      "utc": "2026-04-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1830.3,
+      "subObserver": [
+        4.338,
+        3.035
+      ],
+      "subSolar": [
+        11.278,
+        0.909
+      ],
+      "northPolePositionAngle": 22.052
+    },
+    {
+      "utc": "2026-04-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1924.5,
+      "subObserver": [
+        -6.198,
+        -2.366
+      ],
+      "subSolar": [
+        -159.355,
+        1.128
+      ],
+      "northPolePositionAngle": 337.998
+    },
+    {
+      "utc": "2026-05-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1785.1,
+      "subObserver": [
+        2.806,
+        5.849
+      ],
+      "subSolar": [
+        5.361,
+        1.449
+      ],
+      "northPolePositionAngle": 18.52
+    },
+    {
+      "utc": "2026-05-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1979.7,
+      "subObserver": [
+        -4.439,
+        -5.674
+      ],
+      "subSolar": [
+        -165.511,
+        1.48
+      ],
+      "northPolePositionAngle": 340.914
+    },
+    {
+      "utc": "2026-06-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1763.9,
+      "subObserver": [
+        -0.756,
+        6.193
+      ],
+      "subSolar": [
+        -13.166,
+        1.582
+      ],
+      "northPolePositionAngle": 3.64
+    },
+    {
+      "utc": "2026-06-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 2005.0,
+      "subObserver": [
+        1.228,
+        -5.822
+      ],
+      "subSolar": [
+        175.724,
+        1.402
+      ],
+      "northPolePositionAngle": 359.085
+    },
+    {
+      "utc": "2026-07-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1779.3,
+      "subObserver": [
+        -3.214,
+        3.857
+      ],
+      "subSolar": [
+        -19.77,
+        1.273
+      ],
+      "northPolePositionAngle": 350.322
+    },
+    {
+      "utc": "2026-07-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1972.9,
+      "subObserver": [
+        4.369,
+        -2.531
+      ],
+      "subSolar": [
+        169.043,
+        0.934
+      ],
+      "northPolePositionAngle": 13.685
+    },
+    {
+      "utc": "2026-08-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1834.9,
+      "subObserver": [
+        -5.495,
+        -1.431
+      ],
+      "subSolar": [
+        -38.607,
+        0.595
+      ],
+      "northPolePositionAngle": 339.147
+    },
+    {
+      "utc": "2026-08-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1887.3,
+      "subObserver": [
+        6.209,
+        3.319
+      ],
+      "subSolar": [
+        150.191,
+        0.179
+      ],
+      "northPolePositionAngle": 22.093
+    },
+    {
+      "utc": "2026-09-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1904.1,
+      "subObserver": [
+        -4.209,
+        -6.025
+      ],
+      "subSolar": [
+        -57.232,
+        -0.252
+      ],
+      "northPolePositionAngle": 340.093
+    },
+    {
+      "utc": "2026-09-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1808.5,
+      "subObserver": [
+        4.429,
+        6.604
+      ],
+      "subSolar": [
+        131.667,
+        -0.643
+      ],
+      "northPolePositionAngle": 17.222
+    },
+    {
+      "utc": "2026-10-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1940.5,
+      "subObserver": [
+        -0.619,
+        -6.534
+      ],
+      "subSolar": [
+        -63.257,
+        -0.996
+      ],
+      "northPolePositionAngle": 351.156
+    },
+    {
+      "utc": "2026-10-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1776.7,
+      "subObserver": [
+        1.509,
+        6.284
+      ],
+      "subSolar": [
+        125.845,
+        -1.278
+      ],
+      "northPolePositionAngle": 6.245
+    },
+    {
+      "utc": "2026-11-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1929.6,
+      "subObserver": [
+        4.39,
+        -2.478
+      ],
+      "subSolar": [
+        -80.954,
+        -1.462
+      ],
+      "northPolePositionAngle": 12.418
+    },
+    {
+      "utc": "2026-11-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1774.4,
+      "subObserver": [
+        -3.309,
+        2.702
+      ],
+      "subSolar": [
+        108.341,
+        -1.557
+      ],
+      "northPolePositionAngle": 348.699
+    },
+    {
+      "utc": "2026-12-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1891.3,
+      "subObserver": [
+        6.824,
+        2.099
+      ],
+      "subSolar": [
+        -86.016,
+        -1.468
+      ],
+      "northPolePositionAngle": 20.882
+    },
+    {
+      "utc": "2026-12-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1798.9,
+      "subObserver": [
+        -6.245,
+        -1.263
+      ],
+      "subSolar": [
+        103.429,
+        -1.364
+      ],
+      "northPolePositionAngle": 340.416
+    }
+  ],
+  "horizons": [
+    {
+      "utc": "1850-01-02T00:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1954.323,
+      "subObserver": [
+        6.141339,
+        -0.508328
+      ],
+      "subSolar": [
+        318.583287,
+        1.050005
+      ],
+      "northPolePositionAngle": 21.9483
+    },
+    {
+      "utc": "1900-06-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1918.29,
+      "subObserver": [
+        355.979994,
+        -4.607056
+      ],
+      "subSolar": [
+        326.226226,
+        -0.340117
+      ],
+      "northPolePositionAngle": 351.414
+    },
+    {
+      "utc": "1950-12-31T00:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1869.873,
+      "subObserver": [
+        353.165054,
+        0.154023
+      ],
+      "subSolar": [
+        278.288439,
+        -1.482946
+      ],
+      "northPolePositionAngle": 21.7883
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1781.067,
+      "subObserver": [
+        5.025824,
+        -6.720739
+      ],
+      "subSolar": [
+        242.181075,
+        0.619964
+      ],
+      "northPolePositionAngle": 16.8913
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1992.135,
+      "subObserver": [
+        1.951469,
+        -0.437737
+      ],
+      "subSolar": [
+        182.158132,
+        0.113031
+      ],
+      "northPolePositionAngle": 339.2349
+    },
+    {
+      "utc": "2026-09-22T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1803.311,
+      "subObserver": [
+        356.446858,
+        2.320557
+      ],
+      "subSolar": [
+        46.264579,
+        -0.779943
+      ],
+      "northPolePositionAngle": 345.8852
+    },
+    {
+      "utc": "2050-06-15T12:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1899.029,
+      "subObserver": [
+        4.472347,
+        -1.472862
+      ],
+      "subSolar": [
+        231.730952,
+        -0.908934
+      ],
+      "northPolePositionAngle": 339.4082
+    },
+    {
+      "utc": "2100-01-01T00:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1928.363,
+      "subObserver": [
+        357.829041,
+        -1.469027
+      ],
+      "subSolar": [
+        301.11885,
+        -1.445877
+      ],
+      "northPolePositionAngle": 20.393
+    },
+    {
+      "utc": "2149-12-30T00:00:00Z",
+      "observer": null,
+      "diameterArcseconds": 1780.133,
+      "subObserver": [
+        357.328478,
+        -0.710599
+      ],
+      "subSolar": [
+        177.811183,
+        0.167358
+      ],
+      "northPolePositionAngle": 355.047
+    },
+    {
+      "utc": "2026-09-22T12:00:00Z",
+      "observer": {
+        "latitude": 1.3521,
+        "longitude": 103.8198,
+        "elevation": 0
+      },
+      "diameterArcseconds": 1827.558,
+      "subObserver": [
+        356.788494,
+        2.713956
+      ],
+      "subSolar": [
+        46.264577,
+        -0.779943
+      ],
+      "northPolePositionAngle": 345.7467
+    },
+    {
+      "utc": "2026-03-20T10:00:00Z",
+      "observer": {
+        "latitude": -33.8688,
+        "longitude": 151.2093,
+        "elevation": 0
+      },
+      "diameterArcseconds": 1931.172,
+      "subObserver": [
+        355.787566,
+        -4.994319
+      ],
+      "subSolar": [
+        158.498403,
+        0.533119
+      ],
+      "northPolePositionAngle": 338.4597
+    },
+    {
+      "utc": "2026-01-03T20:00:00Z",
+      "observer": {
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "elevation": 0
+      },
+      "diameterArcseconds": 1990.684,
+      "subObserver": [
+        4.602386,
+        -4.642393
+      ],
+      "subSolar": [
+        358.167756,
+        -1.298178
+      ],
+      "northPolePositionAngle": 7.6522
+    },
+    {
+      "utc": "2027-01-01T00:00:00Z",
+      "observer": {
+        "latitude": -16.5,
+        "longitude": -68.15,
+        "elevation": 4200
+      },
+      "diameterArcseconds": 1805.937,
+      "subObserver": [
+        7.181658,
+        5.505274
+      ],
+      "subSolar": [
+        263.115856,
+        -1.01459
+      ],
+      "northPolePositionAngle": 21.1066
+    },
+    {
+      "utc": "2020-02-29T23:59:59Z",
+      "observer": {
+        "latitude": 90,
+        "longitude": 0,
+        "elevation": 0
+      },
+      "diameterArcseconds": 1797.166,
+      "subObserver": [
+        354.140017,
+        5.606405
+      ],
+      "subSolar": [
+        104.792117,
+        -1.404629
+      ],
+      "northPolePositionAngle": 345.8407
+    },
+    {
+      "utc": "2030-06-15T06:30:00Z",
+      "observer": {
+        "latitude": -90,
+        "longitude": 0,
+        "elevation": 0
+      },
+      "diameterArcseconds": 2014.091,
+      "subObserver": [
+        0.547643,
+        -1.033589
+      ],
+      "subSolar": [
+        7.83252,
+        -0.222048
+      ],
+      "northPolePositionAngle": 7.0623
+    },
+    {
+      "utc": "2026-04-15T18:00:00Z",
+      "observer": {
+        "latitude": 0,
+        "longitude": 179.9,
+        "elevation": 0
+      },
+      "diameterArcseconds": 1943.669,
+      "subObserver": [
+        354.875496,
+        -2.41779
+      ],
+      "subSolar": [
+        197.588116,
+        1.131747
+      ],
+      "northPolePositionAngle": 337.9486
+    }
+  ]
+}

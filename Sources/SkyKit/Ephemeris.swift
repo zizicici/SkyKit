@@ -102,4 +102,24 @@ public final class Ephemeris: @unchecked Sendable {
         return MoonObservation(eastNorthUp: SIMD3(output[3], output[4], output[5]),
                                 azimuth: output[6], altitude: output[7], time: time)
     }
+
+    /// Approximate spherical surface geometry for photo labels and lunar globes.
+    /// Uses DE440 positions and an explicitly approximate IAU 2009 orientation.
+    public func surface(at date: Date, observer: MoonSurfaceObserver = .geocentric,
+                        north: MoonSurfaceNorth = .trueOfDate) -> MoonSurface? {
+        guard let time = timeScales(at: date) else { return nil }
+        let kind: Int32
+        let latitude: Double, longitude: Double, elevation: Double
+        switch observer {
+        case .geocentric:
+            (kind, latitude, longitude, elevation) = (0, 0, 0, 0)
+        case .earth(let lat, let lon, let height):
+            (kind, latitude, longitude, elevation) = (1, lat, lon, height)
+        }
+        var vectors = [Double](repeating: 0, count: 10)
+        guard lunar_surface_vectors(handle, time.tdb, time.tt, time.ut1,
+                                    time.xp, time.yp, time.dX, time.dY, kind,
+                                    latitude, longitude, elevation, &vectors) == 0 else { return nil }
+        return MoonSurface(date: date, observer: observer, north: north, time: time, vectors: vectors)
+    }
 }

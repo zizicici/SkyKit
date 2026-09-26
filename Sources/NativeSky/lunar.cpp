@@ -203,6 +203,35 @@ public:
         Vec incoming=sub(state(10,emission-solarLight).p,moon);
         return std::clamp((1+dot(unit(incoming),unit(sub(earth.p,moon))))/2,0.0,1.0);
     }
+    std::array<double,10> surfaceVectors(double t,double tt,double ut1,double xp,double yp,double dx,double dy,
+                                         int observer,double lat,double lon,double height) const {
+        checkTT(t,tt);
+        require(observer==0 || observer==1);
+        for (double x:{lat,lon,height}) require(std::isfinite(x));
+        require(std::abs(lat)<=90 && std::abs(lon)<=180 && height>=-1000 && height<=100000);
+        // Validate the explicit time/EOP arguments even for a geocentric caller.
+        double rotation[3][3];earthRotation(tt,ut1,xp,yp,dx,dy,rotation);
+        Vec location=state(399,t).p;
+        if (observer==1) {
+            Vec terrestrial{};
+            require(eraGd2gc(1,lon*pi/180,lat*pi/180,height,terrestrial.data())==0);
+            location=add(location,rotate(rotation,scale(terrestrial,.001),true));
+        } else {
+            require(lat==0 && lon==0 && height==0);
+        }
+        double emission=t;
+        for (int i=0;i<5;++i) emission=t-norm(sub(state(301,emission).p,location))/c/day;
+        Vec moon=state(301,emission).p;
+        double solarEmission=emission;
+        for (int i=0;i<5;++i) solarEmission=emission-norm(sub(state(10,solarEmission).p,moon))/c/day;
+        Vec toObserver=sub(location,moon),toSun=sub(state(10,solarEmission).p,moon);
+        // Position angle is measured from true equatorial north of reception date,
+        // not J2000 north. Omitting this distinction accumulates precession error.
+        double equator[3][3];eraPnm06a(2451545.0,tt,equator);
+        Vec north=rotate(equator,{0,0,1},true);
+        return {emission,toObserver[0],toObserver[1],toObserver[2],
+                toSun[0],toSun[1],toSun[2],north[0],north[1],north[2]};
+    }
     Vec observerDirection(double t,double tt,double ut1,double xp,double yp,double dx,double dy,
                           double lat,double lon,double height,double matrix[3][3]) const {
         checkTT(t,tt);
@@ -295,6 +324,13 @@ int lunar_rotation(double tt,double ut1,double xp,double yp,double dx,double dy,
 }
 int lunar_observe(void *p,double t,double tt,double ut1,double xp,double yp,double dx,double dy,double lat,double lon,double height,double *out) {
     try {require(out);auto r=kernel(p).observe(t,tt,ut1,xp,yp,dx,dy,lat,lon,height);
+        for (double x:r) require(std::isfinite(x));
+        std::copy(r.begin(),r.end(),out);return 0;
+    } catch (...) {return -1;}
+}
+int lunar_surface_vectors(void *p,double t,double tt,double ut1,double xp,double yp,double dx,double dy,
+                          int observer,double lat,double lon,double height,double *out) {
+    try {require(out);auto r=kernel(p).surfaceVectors(t,tt,ut1,xp,yp,dx,dy,observer,lat,lon,height);
         for (double x:r) require(std::isfinite(x));
         std::copy(r.begin(),r.end(),out);return 0;
     } catch (...) {return -1;}

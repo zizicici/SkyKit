@@ -1,9 +1,10 @@
 # SkyKit
 
 Moon phase and topocentric direction from original JPL DE440 coefficients and
-ERFA 2.0.1. There is no alternate engine and no approximate fallback: missing or
-invalid data returns `nil`, so a caller can show an explicit unavailable state
-instead of a fabricated value.
+ERFA 2.0.1, plus approximate lunar surface geometry for photo annotations.
+Orbit calculations have no alternate engine or approximate fallback: missing or
+invalid data returns `nil`. The surface API explicitly uses the compact IAU 2009
+lunar orientation model, suitable for locating large maria on a spherical atlas.
 
 ## Requirements
 
@@ -44,6 +45,39 @@ let marker = MoonProjection.project(guidance, imageRect: imageRect,
 `MoonGuidance` expects Core Motion's `xTrueNorthZVertical` attitude and assumes a
 rear camera looking along device −Z. `MoonProjection` assumes a portrait preview
 whose `imageRect` comes from `AVCaptureVideoPreviewLayer`.
+
+## Lunar surface and photo labels
+
+```swift
+// No location permission needed for the geocentric approximation.
+if let surface = Moon.surface(at: photoDate),
+   let mare = MoonSurfaceCoordinate(latitude: 8.3487, longitude: 30.8346),
+   let marker = surface.project(mare, rotation: fittedClockwiseRotation),
+   marker.isVisible, marker.isIlluminated {
+    // Disc coordinates are centered at zero, radius 1, image Y points down.
+    let point = CGPoint(x: fittedCenter.x + fittedRadius * marker.point.x,
+                        y: fittedCenter.y + fittedRadius * marker.point.y)
+    // Place the Mare Tranquillitatis label at point.
+}
+
+// Optional WGS84 observer: better libration for a known capture location.
+let local = Moon.surface(at: photoDate,
+    observer: .earth(latitude: 1.3521, longitude: 103.8198, elevation: 0))
+// For a globe: local?.bodyToView and local?.sunDirectionInView.
+// For picking: local?.coordinate(at: normalizedImagePoint, rotation: fittedClockwiseRotation).
+```
+
+`subObserver` gives the libration longitude/latitude, `subSolar` gives the lighting
+direction, and `northPolePositionAngle` is measured east of true celestial north
+of date by default. Pass `north: .icrf` for fixed J2000 north, as in NASA SVS renders.
+The position angle is **not the phone's roll**. The caller still needs to locate
+the lunar disc and fit the photo's scale, translation and rotation. Surface
+coordinates use planetocentric latitude and east-positive longitude, normalized
+to −180..<180. Body +X is 0°N/0°E, +Y is 0°N/90°E and +Z is lunar north.
+
+`orientationModel == .iau2009` makes the approximation explicit. Existing phase
+and direction calculations are unchanged. No extra kernel download or runtime
+dependency is needed. See [surface conventions, accuracy and integration](docs/lunar-surface.md).
 
 ## Offline and on-demand coverage
 
@@ -105,8 +139,9 @@ One immutable native kernel supports concurrent reads. WGS84 ellipsoidal GPS
 height is required. Native ENU becomes `(N, -E, U)` for Core Motion. The standalone
 standard-refraction helper implements NOAA's published equations; it is an
 approximate atmospheric model, not a weather prediction. Moon phases represent
-geocentric geometric illumination. Lunar libration and eclipse shadows are not
-implemented. Compass and camera calibration still require outdoor device testing.
+geocentric geometric illumination. The surface API adds approximate IAU 2009
+libration using the same DE440 orbital vectors. Eclipse shadows are not modeled.
+Compass and camera calibration still require outdoor device testing.
 
 `provenance.json` pins exported sources and resources; `validation.json` records
 expanded coefficient checks against JPLEphem. The 343,120 expanded position/velocity
@@ -147,4 +182,6 @@ requires a published pack or Apple's local managed-asset test server.
 - [IERS finals2000A](https://maia.usno.navy.mil/ser7/finals2000A.all), [format](https://maia.usno.navy.mil/ser7/readme.finals2000A), [Bulletin C 72](https://hpiers.obspm.fr/iers/bul/bulc/bulletinc.72).
 - [NASA historical ΔT polynomials](https://eclipse.gsfc.nasa.gov/SEcat5/deltatpoly.html), used only before 1960, without the correction specific to ELP-2000/82.
 - [NOAA standard refraction](https://gml.noaa.gov/grad/solcalc/calcdetails.html).
+- [NAIF pck00011.tpc](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc): IAU 2009 lunar rotation coefficients (`BODY301_*`, `BODY3_NUT_PREC_ANGLES`).
+- [NASA SVS Moon Phase and Libration 2026](https://svs.gsfc.nasa.gov/5587/) and [JPL Horizons](https://ssd.jpl.nasa.gov/horizons/manual.html): independent surface-geometry regression references.
 - [ChineseCalendar](https://github.com/ytliu0/ChineseCalendar): phase-method and validation reference; its tables/runtime code are not bundled.

@@ -1,12 +1,20 @@
 import Foundation
 
-/// Moon phase and topocentric direction, both from the same DE440/ERFA engine.
-/// Missing or unsupported data is not a result: every call returns nil rather
-/// than falling back to a lower-accuracy model.
+/// Moon phase, topocentric direction and surface geometry from DE440/ERFA orbital
+/// vectors. Surface orientation explicitly uses the approximate IAU 2009 model.
+/// Missing or unsupported ephemeris data returns nil without an alternate engine.
 public enum Moon {
     /// Geocentric phase for `date`, or nil when no kernel covers it.
     public static func phase(at date: Date) -> MoonPhase? {
         Ephemeris.available(at: date)?.phase(at: date)
+    }
+
+    /// Lunar atlas geometry, with approximate IAU 2009 surface orientation.
+    /// No GPS is required: the default is the view from Earth's center.
+    /// Availability and resource preparation follow the same policy as `phase`.
+    public static func surface(at date: Date, observer: MoonSurfaceObserver = .geocentric,
+                               north: MoonSurfaceNorth = .trueOfDate) -> MoonSurface? {
+        Ephemeris.available(at: date)?.surface(at: date, observer: observer, north: north)
     }
 
     /// First new (0), first-quarter (90), full (180) or last-quarter (270) Moon
